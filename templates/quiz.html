@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Interativo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(-45deg, #2C2A4A, #3E4E88, #FF7A59, #2C2A4A);
+            background-size: 400% 400%;
+            animation: gradienteAnimado 15s ease infinite;
+            color: #F1F1F1;
+            min-height: 100vh;
+        }
+
+        @keyframes gradienteAnimado {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .card {
+            background-color: rgba(0, 0, 0, 0.3);
+            color: #F1F1F1;
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .progresso {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+            text-align: center;
+            color: #fff;
+        }
+
+        #alerta-tempo {
+            background-color: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #fff;
+            text-align: center;
+            margin: 20px auto;
+            width: fit-content;
+            display: none;
+            animation: aparecer 0.5s ease-out;
+        }
+
+        @keyframes aparecer {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        .piscar {
+            animation: piscar 1s infinite;
+        }
+
+        @keyframes piscar {
+            0% { opacity: 1; }
+            50% { opacity: 0.2; }
+            100% { opacity: 1; }
+        }
+
+        .info-card {
+            background-color: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 10px 20px;
+            border-radius: 12px;
+            color: #F1F1F1;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .opcoes-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .opcao-card {
+            background-color: #FF7A59;
+            color: #F1F1F1;
+            padding: 15px 20px;
+            border-radius: 10px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 1.1rem;
+            font-weight: 600;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .opcao-card:hover {
+            background-color: #3e4e88;
+            transform: scale(1.05);
+        }
+
+        .opcao-card.selected {
+            background-color: #198754;
+            transform: scale(1.05);
+        }
+
+        .opcao-card.selected.errada {
+            background-color: #dc3545 !important;
+        }
+
+        .alerta-selecao {
+            display: none;
+            font-size: 1.1rem;
+            text-align: center;
+        }
+
+        .btn-voltar {
+            display: block;
+            margin: 30px auto 0 auto;
+            padding: 12px 25px;
+            font-size: 1.1rem;
+            background-color: #FF7A59;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            transition: background-color 0.3s ease, transform 0.2s;
+            text-decoration: none;
+            text-align: center;
+            width: fit-content;
+        }
+
+        .btn-voltar:hover {
+            background-color: #e66145;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-4">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <div class="info-card me-2">
+                ⏱ Tempo restante: <span id="tempo-container"><span id="tempo">10s</span></span>
+            </div>
+            <div class="info-card ms-2" id="progresso">
+                Pergunta 1 de {{ perguntas|length }}
+            </div>
+        </div>
+
+        <div id="alerta-tempo" class="alerta-card">⏰ Tempo esgotado!</div>
+
+        {% if perguntas and perguntas|length > 0 %}
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <form id="formQuiz" method="POST">
+                    {% for pergunta in perguntas %}
+                        {% set i = loop.index0 %}
+                        <div class="mb-5 pergunta d-none" id="pergunta-{{ i }}" data-correta="{{ pergunta.resposta_correta|default('') }}">
+                            <h5 class="mb-3"><strong>{{ loop.index }}.</strong> {{ pergunta.pergunta }}</h5>
+
+                            <div class="opcoes-container">
+                                {% for opcao in pergunta.opcoes %}
+                                    <div class="opcao-card" data-opcao="{{ opcao }}" id="opcao-{{ i }}-{{ loop.index0 }}">
+                                        <p class="opcao-text">{{ opcao }}</p>
+                                    </div>
+                                {% endfor %}
+                            </div>
+
+                            <div class="alerta-selecao alert alert-warning mt-3 d-none" role="alert">
+                                ⚠️ Selecione uma opção!
+                            </div>
+
+                            <input type="hidden" name="resposta-{{ i }}" id="resposta-{{ i }}">
+                        </div>
+                    {% endfor %}
+                </form>
+
+                <div class="text-center mt-4">
+                    <a href="/" class="btn btn-secondary">⬅ Voltar ao Início</a>
+                </div>
+            </div>
+        </div>
+        {% else %}
+            <div class="alert alert-danger text-center mt-5">
+                Nenhuma pergunta disponível. Verifique o carregamento do quiz.
+            </div>
+        {% endif %}
+    </div>
+
+    <script>
+        let tempo = 10;
+        let indiceAtual = 0;
+        let intervalo;
+        let quizFinalizado = false;
+        const respostasJogador = [];
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const perguntas = document.querySelectorAll('.pergunta');
+            const tempoSpan = document.getElementById('tempo');
+            const alertaTempo = document.getElementById('alerta-tempo');
+            const progresso = document.getElementById('progresso');
+            const form = document.getElementById('formQuiz');
+
+            if (perguntas.length === 0) return;
+
+            function reiniciarTempo() {
+                tempo = 10;
+                tempoSpan.textContent = tempo + 's';
+                tempoSpan.classList.remove("piscar");
+                alertaTempo.style.display = 'none';
+            }
+
+            function iniciarPergunta(indice) {
+                perguntas.forEach(p => p.classList.add('d-none'));
+                perguntas[indice].classList.remove('d-none');
+                reiniciarTempo();
+                progresso.textContent = `Pergunta ${indice + 1} de ${perguntas.length}`;
+                if (intervalo) clearInterval(intervalo);
+
+                intervalo = setInterval(() => {
+                    tempo--;
+                    tempoSpan.textContent = tempo + 's';
+                    tempoSpan.style.color = tempo <= 5 ? 'red' : '';
+                    tempoSpan.classList.toggle("piscar", tempo <= 5);
+
+                    if (tempo <= 0) {
+                        clearInterval(intervalo);
+                        registrarRespostaVazia();
+                        proximaPergunta();
+                    }
+                }, 1000);
+            }
+
+            function registrarRespostaVazia() {
+                const inputHidden = document.getElementById(`resposta-${indiceAtual}`);
+                if (inputHidden && !inputHidden.value) {
+                    inputHidden.value = '';
+                    respostasJogador[indiceAtual] = '';
+                }
+                alertaTempo.style.display = 'block';
+            }
+
+            function proximaPergunta() {
+                indiceAtual++;
+                if (indiceAtual < perguntas.length) {
+                    iniciarPergunta(indiceAtual);
+                } else if (!quizFinalizado) {
+                    quizFinalizado = true;
+                    form.submit();
+                }
+            }
+
+            function validarResposta(indice) {
+                clearInterval(intervalo);
+                const pergunta = perguntas[indice];
+                const opcoes = pergunta.querySelectorAll('.opcao-card');
+                const alertaSelecao = pergunta.querySelector('.alerta-selecao');
+                alertaSelecao.classList.add('d-none');
+
+                let respostaSelecionada = null;
+                const respostaCorreta = pergunta.getAttribute('data-correta');
+
+                opcoes.forEach(opcao => {
+                    if (opcao.classList.contains('selected')) {
+                        respostaSelecionada = opcao.getAttribute('data-opcao');
+                        if (respostaSelecionada === respostaCorreta) {
+                            opcao.classList.add('selected');
+                        } else {
+                            opcao.classList.add('selected', 'errada');
+                        }
+                    }
+                });
+
+                if (respostaSelecionada !== null) {
+                    document.getElementById('resposta-' + indice).value = respostaSelecionada;
+                    respostasJogador[indice] = respostaSelecionada;
+                    setTimeout(() => {
+                        proximaPergunta();
+                    }, 1000);
+                } else {
+                    alertaSelecao.classList.remove('d-none');
+                }
+            }
+
+            document.querySelectorAll('.opcao-card').forEach(opcao => {
+                opcao.addEventListener('click', (e) => {
+                    const opcaoCard = e.target.closest('.opcao-card');
+                    const pergunta = opcaoCard.closest('.pergunta');
+                    const opcoes = pergunta.querySelectorAll('.opcao-card');
+                    const indice = pergunta.id.split('-')[1];
+
+                    opcoes.forEach(o => o.classList.remove('selected', 'errada'));
+                    opcaoCard.classList.add('selected');
+
+                    validarResposta(parseInt(indice));
+                });
+            });
+
+            iniciarPergunta(indiceAtual);
+        });
+    </script>
+</body>
+</html>

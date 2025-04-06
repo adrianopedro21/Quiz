@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Hall da Fama</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(-45deg, #2C2A4A, #3E4E88, #FF7A59, #2C2A4A);
+            background-size: 400% 400%;
+            animation: gradienteAnimado 15s ease infinite;
+            color: #F1F1F1;
+            min-height: 100vh;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        @keyframes gradienteAnimado {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .tabela-container {
+            max-width: 700px;
+            margin: 60px auto;
+            background-color: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+
+        .titulo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        table {
+            width: 100%;
+            color: #fff;
+            background-color: transparent !important;
+        }
+
+        thead, tbody, tr, th, td {
+            background-color: transparent !important;
+        }
+
+        th, td {
+            padding: 12px;
+            font-size: 1.1rem;
+            text-align: center;
+            border: none !important;
+        }
+
+        th {
+            font-weight: bold;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+            color: #fff !important;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .btn-voltar {
+            display: block;
+            margin: 30px auto 0 auto;
+            padding: 12px 25px;
+            font-size: 1.1rem;
+            background-color: #FF7A59;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            transition: background-color 0.3s ease, transform 0.2s;
+            text-decoration: none;
+            text-align: center;
+            width: fit-content;
+        }
+
+        .btn-voltar:hover {
+            background-color: #e66145;
+            transform: scale(1.05);
+        }
+
+        .medalha {
+            font-size: 1.3rem;
+            margin-right: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="tabela-container">
+        <div class="titulo">🏆 Hall da Fama</div>
+        <table class="table table-borderless">
+            <thead>
+                <tr>
+                    <th>Posição</th>
+                    <th>Nome</th>
+                    <th>Acertos</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in registros %}
+                <tr>
+                    <td style="color: {% if loop.index == 1 %}#FFD700{% elif loop.index == 2 %}#C0C0C0{% elif loop.index == 3 %}#CD7F32{% else %}white{% endif %};">
+                        {% if loop.index == 1 %}
+                            <span class="medalha">🏆</span>{{ loop.index }}
+                        {% elif loop.index == 2 %}
+                            <span class="medalha">🥈</span>{{ loop.index }}
+                        {% elif loop.index == 3 %}
+                            <span class="medalha">🥉</span>{{ loop.index }}
+                        {% else %}
+                            <span class="medalha">🏅</span>{{ loop.index }}
+                        {% endif %}
+                    </td>
+                    <td style="color: {% if loop.index == 1 %}#FFD700{% elif loop.index == 2 %}#C0C0C0{% elif loop.index == 3 %}#CD7F32{% else %}white{% endif %};">
+                        {{ item.nome }}
+                    </td>
+                    <td style="color: {% if loop.index == 1 %}#FFD700{% elif loop.index == 2 %}#C0C0C0{% elif loop.index == 3 %}#CD7F32{% else %}white{% endif %};">
+                        {{ item.acertos }}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div class="text-center mt-4">
+            <a href="/" class="btn btn-secondary">⬅ Voltar ao Início</a>
+        </div>
+    </div>
+</body>
+</html>

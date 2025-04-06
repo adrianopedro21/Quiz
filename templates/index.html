@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Bem-vindo ao Quiz 10s!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(-45deg, #2C2A4A, #3E4E88, #FF7A59, #2C2A4A);
+            background-size: 400% 400%;
+            animation: gradienteAnimado 15s ease infinite;
+            color: #F1F1F1;
+            min-height: 100vh;
+        }
+
+        @keyframes gradienteAnimado {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .card {
+            background-color: rgba(0, 0, 0, 0.3);
+            color: #F1F1F1;
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-start, .btn-voltar, .btn {
+            background-color: #FF7A59;
+            border: none;
+            color: white;
+        }
+
+        .btn-start:hover, .btn-voltar:hover, .btn:hover {
+            background-color: #e66a50;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="card p-5 text-center shadow-lg">
+            <h1 class="mb-4">🎉 Bem-vindo ao Quiz 10s!</h1>
+            <p class="mb-4">Teste seus conhecimentos de forma divertida!</p>
+            <a href="/quiz" class="btn btn-start btn-lg px-5">Começar o Quiz</a>
+            <p></p>
+            <a href="/hall-da-fama" class="btn btn-start btn-lg px-5">Hall da Fama</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,362 @@
+[
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual fruta é conhecida por ter muitas sementes pequenas em seu interior?",
+    "opcoes": ["Maçã", "Uva", "Maracujá", "Pera"],
+    "resposta_correta": "Maracujá"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "O que é necessário para que uma planta faça fotossíntese?",
+    "opcoes": ["Luz solar", "Sal", "Gelo", "Areia"],
+    "resposta_correta": "Luz solar"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Em qual continente está localizado o Brasil?",
+    "opcoes": ["Europa", "África", "América do Sul", "Ásia"],
+    "resposta_correta": "América do Sul"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Quantos segundos tem um minuto?",
+    "opcoes": ["30", "60", "100", "120"],
+    "resposta_correta": "60"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do líquido que sai da torneira?",
+    "opcoes": ["Óleo", "Suco", "Água", "Leite"],
+    "resposta_correta": "Água"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Que cor resulta da mistura de azul com amarelo?",
+    "opcoes": ["Verde", "Roxo", "Laranja", "Cinza"],
+    "resposta_correta": "Verde"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do animal que mia?",
+    "opcoes": ["Cachorro", "Gato", "Cavalo", "Leão"],
+    "resposta_correta": "Gato"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o planeta mais próximo do Sol?",
+    "opcoes": ["Terra", "Vênus", "Marte", "Mercúrio"],
+    "resposta_correta": "Mercúrio"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Que instrumento mede a temperatura?",
+    "opcoes": ["Régua", "Barômetro", "Termômetro", "Bússola"],
+    "resposta_correta": "Termômetro"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o dia que vem depois da sexta-feira?",
+    "opcoes": ["Quarta-feira", "Sábado", "Domingo", "Segunda-feira"],
+    "resposta_correta": "Sábado"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Quem é o personagem que vive em um abacaxi no fundo do mar?",
+    "opcoes": ["Bob Esponja", "Patrick", "Peppa Pig", "Mickey Mouse"],
+    "resposta_correta": "Bob Esponja"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é a capital do Brasil?",
+    "opcoes": ["São Paulo", "Rio de Janeiro", "Brasília", "Belo Horizonte"],
+    "resposta_correta": "Brasília"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do famoso jogo onde se constrói com blocos?",
+    "opcoes": ["Minecraft", "FIFA", "Free Fire", "Among Us"],
+    "resposta_correta": "Minecraft"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "O que usamos para ver melhor quando temos dificuldade de enxergar?",
+    "opcoes": ["Óculos", "Relógio", "Anel", "Colar"],
+    "resposta_correta": "Óculos"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Que animal é conhecido por ser o melhor amigo do homem?",
+    "opcoes": ["Gato", "Cachorro", "Papagaio", "Tartaruga"],
+    "resposta_correta": "Cachorro"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o som que o galo faz?",
+    "opcoes": ["Miau", "Au au", "Cocoricó", "Oinc oinc"],
+    "resposta_correta": "Cocoricó"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do famoso buscador da internet?",
+    "opcoes": ["Yahoo", "Bing", "Google", "Ask"],
+    "resposta_correta": "Google"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "O que acendemos quando falta luz?",
+    "opcoes": ["Lanterna", "Fogão", "Ventilador", "Televisão"],
+    "resposta_correta": "Lanterna"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Quantas patas tem uma aranha?",
+    "opcoes": ["6", "8", "10", "12"],
+    "resposta_correta": "8"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual o nome do feitiço usado para desarmar outro bruxo em Harry Potter?",
+    "opcoes": ["Expecto Patronum", "Alohomora", "Expelliarmus", "Lumos"],
+    "resposta_correta": "Expelliarmus"
+  },
+    {
+      "nivel": "médio",
+      "pergunta": "Qual é a capital do estado de Pernambuco?",
+      "opcoes": ["Salvador", "Fortaleza", "Recife", "Natal"],
+      "resposta_correta": "Recife"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "Qual o nome do gás essencial para a respiração humana?",
+      "opcoes": ["Nitrogênio", "Oxigênio", "Hidrogênio", "Gás carbônico"],
+      "resposta_correta": "Oxigênio"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "Quem escreveu o romance 'Dom Casmurro'?",
+      "opcoes": ["José de Alencar", "Machado de Assis", "Graciliano Ramos", "Carlos Drummond de Andrade"],
+      "resposta_correta": "Machado de Assis"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "Quantas cores tem a bandeira do Brasil?",
+      "opcoes": ["Três", "Quatro", "Cinco", "Seis"],
+      "resposta_correta": "Quatro"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "Qual o nome da cantora que lançou a música 'Envolver'?",
+      "opcoes": ["Ludmilla", "Pabllo Vittar", "Anitta", "Iza"],
+      "resposta_correta": "Anitta"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "Em que país nasceu o futebol?",
+      "opcoes": ["Brasil", "Espanha", "Alemanha", "Inglaterra"],
+      "resposta_correta": "Inglaterra"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "O que significa 'WWW' na internet?",
+      "opcoes": ["World Wide Web", "Web World Window", "Web Without Wires", "Wide Web World"],
+      "resposta_correta": "World Wide Web"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "Qual desses planetas é conhecido por ter anéis ao seu redor?",
+      "opcoes": ["Marte", "Júpiter", "Urano", "Saturno"],
+      "resposta_correta": "Saturno"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "Que animal é símbolo da sabedoria em muitas culturas?",
+      "opcoes": ["Gato", "Coruja", "Cachorro", "Raposa"],
+      "resposta_correta": "Coruja"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "Quem é o autor da teoria da relatividade?",
+      "opcoes": ["Isaac Newton", "Stephen Hawking", "Galileu Galilei", "Albert Einstein"],
+      "resposta_correta": "Albert Einstein"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "Qual é a moeda oficial do Japão?",
+      "opcoes": ["Iene", "Dólar", "Yuan", "Euro"],
+      "resposta_correta": "Iene"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "Qual é o maior estado do Brasil em extensão territorial?",
+      "opcoes": ["Amazonas", "Pará", "Mato Grosso", "Bahia"],
+      "resposta_correta": "Amazonas"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "Qual é o metal líquido à temperatura ambiente?",
+      "opcoes": ["Chumbo", "Mercúrio", "Cobre", "Ouro"],
+      "resposta_correta": "Mercúrio"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "Quantos lados tem um hexágono?",
+      "opcoes": ["Cinco", "Seis", "Sete", "Oito"],
+      "resposta_correta": "Seis"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "Qual país sediou a Copa do Mundo de 2022?",
+      "opcoes": ["Brasil", "Rússia", "Qatar", "Alemanha"],
+      "resposta_correta": "Qatar"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "Quem pintou 'A Última Ceia'?",
+      "opcoes": ["Michelangelo", "Leonardo da Vinci", "Pablo Picasso", "Rembrandt"],
+      "resposta_correta": "Leonardo da Vinci"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "Em qual estação do ano as flores desabrocham com mais frequência?",
+      "opcoes": ["Verão", "Primavera", "Outono", "Inverno"],
+      "resposta_correta": "Primavera"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "Qual é o coletivo de lobos?",
+      "opcoes": ["Alcateia", "Manada", "Bando", "Matilha"],
+      "resposta_correta": "Alcateia"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "Qual elemento químico tem como símbolo a letra 'O'?",
+      "opcoes": ["Ouro", "Oxigênio", "Osônio", "Ósmio"],
+      "resposta_correta": "Oxigênio"
+    },
+    {
+      "nivel": "médio",
+      "pergunta": "Qual é o órgão do corpo humano responsável por bombear sangue?",
+      "opcoes": ["Pulmão", "Estômago", "Fígado", "Coração"],
+      "resposta_correta": "Coração"
+    },
+    {
+        "nivel": "difícil",
+        "pergunta": "Qual o nome da missão da NASA que conseguiu pousar um rover em Marte em 2021?",
+        "opcoes": ["Pathfinder", "Curiosity", "Opportunity", "Perseverance"],
+        "resposta_correta": "Perseverance"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Quem foi a primeira mulher a ganhar um Prêmio Nobel?",
+        "opcoes": ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Jane Goodall"],
+        "resposta_correta": "Marie Curie"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Qual é a capital da Nova Zelândia?",
+        "opcoes": ["Auckland", "Wellington", "Christchurch", "Hamilton"],
+        "resposta_correta": "Wellington"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Qual artista brasileiro pintou o famoso quadro 'Abaporu'?",
+        "opcoes": ["Cândido Portinari", "Tarsila do Amaral", "Di Cavalcanti", "Anita Malfatti"],
+        "resposta_correta": "Tarsila do Amaral"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Quantos cromossomos humanos existem em uma célula somática normal?",
+        "opcoes": ["23", "46", "48", "92"],
+        "resposta_correta": "46"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Qual foi o primeiro país a legalizar o casamento entre pessoas do mesmo sexo?",
+        "opcoes": ["Canadá", "Holanda", "Bélgica", "Suécia"],
+        "resposta_correta": "Holanda"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Qual é o menor país do mundo em área territorial?",
+        "opcoes": ["Mônaco", "San Marino", "Vaticano", "Liechtenstein"],
+        "resposta_correta": "Vaticano"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Qual dessas empresas foi fundada primeiro?",
+        "opcoes": ["Google", "Apple", "Microsoft", "Amazon"],
+        "resposta_correta": "Microsoft"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Que nome recebe o medo irracional de lugares fechados?",
+        "opcoes": ["Agorafobia", "Aracnofobia", "Claustrofobia", "Acrofobia"],
+        "resposta_correta": "Claustrofobia"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Qual filósofo é autor da frase 'Penso, logo existo'?",
+        "opcoes": ["Aristóteles", "Nietzsche", "Descartes", "Platão"],
+        "resposta_correta": "Descartes"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Em que país nasceu o escritor Franz Kafka?",
+        "opcoes": ["Áustria", "Alemanha", "Polônia", "República Tcheca"],
+        "resposta_correta": "República Tcheca"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Qual é o ponto mais profundo conhecido dos oceanos?",
+        "opcoes": ["Fossa de Porto Rico", "Fossa das Marianas", "Fossa de Java", "Fossa do Atlântico"],
+        "resposta_correta": "Fossa das Marianas"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Qual fenômeno astrofísico pode ser descrito como a radiação térmica emitida por um corpo negro ideal no vácuo do espaço, previsto pela teoria do Big Bang?",
+        "opcoes": ["Matéria escura", "Radiação cósmica de fundo", "Energia escura", "Efeito Doppler gravitacional"],
+        "resposta_correta": "Radiação cósmica de fundo"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Qual é o nome da doença causada pela deficiência de vitamina C?",
+        "opcoes": ["Raquitismo", "Escorbuto", "Anemia", "Béribéri"],
+        "resposta_correta": "Escorbuto"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Qual foi o primeiro satélite artificial lançado no espaço?",
+        "opcoes": ["Apollo 11", "Voyager 1", "Sputnik 1", "Hubble"],
+        "resposta_correta": "Sputnik 1"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Que país possui mais vulcões ativos no mundo?",
+        "opcoes": ["Indonésia", "Itália", "Japão", "Chile"],
+        "resposta_correta": "Indonésia"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Quem foi a primeira pessoa a ganhar dois Prêmios Nobel em áreas diferentes?",
+        "opcoes": ["Albert Einstein", "Marie Curie", "Linus Pauling", "Niels Bohr"],
+        "resposta_correta": "Marie Curie"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Qual é o nome da partícula subatômica que carrega carga negativa?",
+        "opcoes": ["Nêutron", "Próton", "Elétron", "Fóton"],
+        "resposta_correta": "Elétron"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Qual o nome do tratado que pôs fim à Primeira Guerra Mundial?",
+        "opcoes": ["Tratado de Paris", "Tratado de Tordesilhas", "Tratado de Versalhes", "Tratado de Genebra"],
+        "resposta_correta": "Tratado de Versalhes"
+      },
+      {
+        "nivel": "difícil",
+        "pergunta": "Em que ano foi criado o Plano Real no Brasil?",
+        "opcoes": ["1990", "1992", "1994", "1996"],
+        "resposta_correta": "1994"
+      }
+]
