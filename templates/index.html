@@ -2,53 +2,117 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Bem-vindo ao Quiz 10s!</title>
+    <title>🎉 Bem-vindo ao Quiz 10s!</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
             margin: 0;
             padding: 0;
-            background: linear-gradient(-45deg, #2C2A4A, #3E4E88, #FF7A59, #2C2A4A);
-            background-size: 400% 400%;
-            animation: gradienteAnimado 15s ease infinite;
+            background: radial-gradient(circle at center, #2C2A4A, #0d0d1f);
+            background-size: cover;
             color: #F1F1F1;
             min-height: 100vh;
+            animation: pulsar 10s infinite ease-in-out;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
-        @keyframes gradienteAnimado {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
+        @keyframes pulsar {
+            0%, 100% { background-color: #2C2A4A; }
+            50% { background-color: #1a1a33; }
         }
 
         .card {
-            background-color: rgba(0, 0, 0, 0.3);
-            color: #F1F1F1;
-            backdrop-filter: blur(8px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 0 20px rgba(255, 122, 89, 0.6), 0 0 60px rgba(255, 122, 89, 0.3);
+            animation: entrada 1.5s ease-out;
         }
 
-        .btn-start, .btn-voltar, .btn {
-            background-color: #FF7A59;
+        @keyframes entrada {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .btn-start {
+            background: linear-gradient(to bottom, #ff7a59, #d65a40);
+            color: #fff;
+            font-size: 1.3rem;
+            padding: 15px 40px;
+            margin: 10px 0;
             border: none;
-            color: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 0 #b94b36;
+            transition: all 0.2s ease-in-out;
+            text-shadow: 1px 1px 2px black;
         }
 
-        .btn-start:hover, .btn-voltar:hover, .btn:hover {
-            background-color: #e66a50;
+        .btn-start:hover {
+            background: linear-gradient(to bottom, #ffa488, #e66a50);
+        }
+
+        .btn-start:active {
+            box-shadow: 0 3px 0 #b94b36;
+            transform: translateY(3px);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #FF7A59;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #ddd;
+        }
+
+        /* Esconde o player de áudio */
+        audio {
+            display: none;
         }
     </style>
-
 </head>
 <body>
+    <!-- Música de fundo -->
+    <audio id="bg-music" loop autoplay>
+        <source src="https://cdn.pixabay.com/audio/2022/10/01/audio_944e218967.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Efeito sonoro de clique -->
+    <audio id="click-sound">
+        <source src="https://cdn.pixabay.com/audio/2022/03/15/audio_1fc87838e3.mp3" type="audio/mpeg">
+    </audio>
+
     <div class="container d-flex justify-content-center align-items-center vh-100">
-        <div class="card p-5 text-center shadow-lg">
-            <h1 class="mb-4">🎉 Bem-vindo ao Quiz 10s!</h1>
-            <p class="mb-4">Teste seus conhecimentos de forma divertida!</p>
-            <a href="/quiz" class="btn btn-start btn-lg px-5">Começar o Quiz</a>
-            <p></p>
-            <a href="/hall-da-fama" class="btn btn-start btn-lg px-5">Hall da Fama</a>
+        <div class="card text-center">
+            <h1>🎉 Bem-vindo ao Quiz 10s!</h1>
+            <p>Teste seus conhecimentos em grande estilo!</p>
+            <a href="/quiz" class="btn btn-start" onclick="playClick()">🎮 Começar o Quiz</a><br>
+            <a href="/hall-da-fama" class="btn btn-start" onclick="playClick()">🏆 Hall da Fama</a>
         </div>
     </div>
+
+    <script>
+        const clickSound = document.getElementById('click-sound');
+        const bgMusic = document.getElementById('bg-music');
+
+        function playClick() {
+            clickSound.currentTime = 0;
+            clickSound.play();
+        }
+
+        // Garante que a música comece com volume suave
+        window.addEventListener("DOMContentLoaded", () => {
+            bgMusic.volume = 0.4;
+        });
+    </script>
 </body>
 </html>
