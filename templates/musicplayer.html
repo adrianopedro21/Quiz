@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Player</title>
+</head>
+<body style="margin:0; padding:0; background:transparent;">
+  <audio autoplay loop id="bg-music">
+    <source src="{{ url_for('static', filename='audio/bgmusic.mp3') }}" type="audio/mpeg">
+    Seu navegador não suporta áudio HTML5.
+  </audio>
+
+  <script>
+    const audio = document.getElementById("bg-music");
+
+    // Tenta iniciar o áudio mesmo que o navegador bloqueie autoplay
+    window.addEventListener("load", () => {
+      const playPromise = audio.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(error => {
+          console.warn("🔇 Autoplay bloqueado pelo navegador. Interação necessária.");
+        });
+      }
+    });
+  </script>
+</body>
+</html>

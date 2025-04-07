@@ -1,118 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>🎉 Bem-vindo ao Quiz 10s!</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background: radial-gradient(circle at center, #2C2A4A, #0d0d1f);
-            background-size: cover;
-            color: #F1F1F1;
-            min-height: 100vh;
-            animation: pulsar 10s infinite ease-in-out;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+  <meta charset="UTF-8">
+  <title>🎉 Bem-vindo ao Quiz 10s!</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(circle at center, #2C2A4A, #0d0d1f);
+      background-size: cover;
+      color: #F1F1F1;
+      min-height: 100vh;
+      animation: pulsar 10s infinite ease-in-out;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 
-        @keyframes pulsar {
-            0%, 100% { background-color: #2C2A4A; }
-            50% { background-color: #1a1a33; }
-        }
+    @keyframes pulsar {
+      0%, 100% { background-color: #2C2A4A; }
+      50% { background-color: #1a1a33; }
+    }
 
-        .card {
-            background: rgba(0, 0, 0, 0.4);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 50px;
-            box-shadow: 0 0 20px rgba(255, 122, 89, 0.6), 0 0 60px rgba(255, 122, 89, 0.3);
-            animation: entrada 1.5s ease-out;
-        }
+    .card {
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 30px 50px; /* menos padding vertical */
+      box-shadow: 0 0 20px rgba(255, 122, 89, 0.6), 0 0 60px rgba(255, 122, 89, 0.3);
+      animation: entrada 1.5s ease-out;
+      max-width: 600px;
+      width: 100%;
+      max-height: 600px; /* limita a altura máxima */
+      height: auto; /* permite altura adaptável */
+    }
 
-        @keyframes entrada {
-            from {
-                opacity: 0;
-                transform: translateY(-50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+    @keyframes entrada {
+      from { opacity: 0; transform: translateY(-50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
 
-        .btn-start {
-            background: linear-gradient(to bottom, #ff7a59, #d65a40);
-            color: #fff;
-            font-size: 1.3rem;
-            padding: 15px 40px;
-            margin: 10px 0;
-            border: none;
-            border-radius: 12px;
-            box-shadow: 0 6px 0 #b94b36;
-            transition: all 0.2s ease-in-out;
-            text-shadow: 1px 1px 2px black;
-        }
+    .btn-start {
+      background-color: #FF7A59;
+      color: #fff;
+      padding: 15px 20px;
+      border-radius: 10px;
+      text-align: center;
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-weight: 600;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s, background-color 0.3s;
+      margin-top: 15px;
+    }
 
-        .btn-start:hover {
-            background: linear-gradient(to bottom, #ffa488, #e66a50);
-        }
+    .btn-start:hover {
+      background-color: rgba(255, 255, 255, 0.15);
+      color: #fff;
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    }
 
-        .btn-start:active {
-            box-shadow: 0 3px 0 #b94b36;
-            transform: translateY(3px);
-        }
+    .btn-start:active {
+      transform: scale(0.98);
+    }
 
-        h1 {
-            font-size: 2.5rem;
-            color: #FF7A59;
-            text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
-        }
+    h1 {
+      font-size: 2.5rem;
+      color: #FF7A59;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+      margin: 0;
+    }
 
-        p {
-            font-size: 1.2rem;
-            color: #ddd;
-        }
+    p {
+      font-size: 1.2rem;
+      color: #ddd;
+      margin: 0;
+    }
 
-        /* Esconde o player de áudio */
-        audio {
-            display: none;
-        }
-    </style>
+    .titulo-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 80px; /* altura entre topo do card e subtítulo */
+    }
+  </style>
 </head>
 <body>
-    <!-- Música de fundo -->
-    <audio id="bg-music" loop autoplay>
-        <source src="https://cdn.pixabay.com/audio/2022/10/01/audio_944e218967.mp3" type="audio/mpeg">
-    </audio>
-
-    <!-- Efeito sonoro de clique -->
-    <audio id="click-sound">
-        <source src="https://cdn.pixabay.com/audio/2022/03/15/audio_1fc87838e3.mp3" type="audio/mpeg">
-    </audio>
-
-    <div class="container d-flex justify-content-center align-items-center vh-100">
-        <div class="card text-center">
-            <h1>🎉 Bem-vindo ao Quiz 10s!</h1>
-            <p>Teste seus conhecimentos em grande estilo!</p>
-            <a href="/quiz" class="btn btn-start" onclick="playClick()">🎮 Começar o Quiz</a><br>
-            <a href="/hall-da-fama" class="btn btn-start" onclick="playClick()">🏆 Hall da Fama</a>
-        </div>
+  <div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="card text-center">
+      <div class="titulo-container">
+        <h1>Quiz 10s</h1>
+      </div>
+      <p>Teste seus conhecimentos em 10 segundos!</p>
+      <a href="/quiz" class="btn btn-start" target="content" onclick="handleClick()">🎮 Começar o Quiz</a><br>
+      <a href="/hall-da-fama" class="btn btn-start" target="content" onclick="handleClick()">🏆 Ver Hall da Fama</a>
     </div>
+  </div>
 
-    <script>
-        const clickSound = document.getElementById('click-sound');
-        const bgMusic = document.getElementById('bg-music');
+  <!-- Som de clique -->
+  <audio id="click-sound" src="/static/audio/click.mp3"></audio>
+  <script>
+    const clickSound = document.getElementById("click-sound");
 
-        function playClick() {
-            clickSound.currentTime = 0;
-            clickSound.play();
-        }
+    function playClickSound() {
+      clickSound.currentTime = 0;
+      clickSound.play().catch(() => {});
+    }
 
-        // Garante que a música comece com volume suave
-        window.addEventListener("DOMContentLoaded", () => {
-            bgMusic.volume = 0.4;
-        });
-    </script>
+    function handleClick() {
+      playClickSound();
+    }
+  </script>
 </body>
 </html>

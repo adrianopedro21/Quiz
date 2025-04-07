@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Interativo</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+    }
+
+    audio {
+      display: none; /* ou mantenha visível se quiser o controle */
+    }
+  </style>
+</head>
+<body>
+  <!-- Música de fundo fora do iframe -->
+  <audio id="bg-music" autoplay loop>
+    <source src="{{ url_for('static', filename='bgmusic.mp3') }}" type="audio/mpeg">
+    Seu navegador não suporta áudio HTML5.
+  </audio>
+
+  <!-- Todas as páginas carregam aqui dentro -->
+  <iframe id="conteudo" src="/index"></iframe>
+
+  <script>
+    // Impede que a música reinicie ao voltar para a index
+    const music = document.getElementById('bg-music');
+    window.addEventListener('load', () => {
+      music.play().catch(() => {
+        // Às vezes o autoplay falha por causa de bloqueios de navegador
+        console.log('Autoplay bloqueado, esperando interação');
+      });
+    });
+  </script>
+</body>
+</html>

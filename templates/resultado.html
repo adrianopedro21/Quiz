@@ -1,124 +1,169 @@
+<!-- resultado.html -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Resultado do seu quiz interativo" />
-    <title>Resultado: {{ acertos }}/{{ total }}</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Resultado do seu quiz interativo" />
+  <title>Resultado: {{ acertos }}/{{ total }}</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(-45deg, #2C2A4A, #3E4E88, #FF7A59, #2C2A4A);
-            background-size: 400% 400%;
-            animation: gradienteAnimado 15s ease infinite;
-            color: #F1F1F1;
-            min-height: 100vh;
-        }
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(circle at center, #2C2A4A, #0d0d1f);
+      background-size: cover;
+      color: #ffffff;
+      min-height: 100vh;
+      animation: pulsar 10s infinite ease-in-out;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 
-        @keyframes gradienteAnimado {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
+    @keyframes pulsar {
+      0%, 100% { background-color: #2C2A4A; }
+      50% { background-color: #1a1a33; }
+    }
 
-        .card {
-            background-color: rgba(0, 0, 0, 0.3);
-            color: #F1F1F1;
-            backdrop-filter: blur(8px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 16px;
-            max-width: 500px;
-            width: 100%;
-        }
+    .card {
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 30px 50px;
+      box-shadow: 0 0 20px rgba(255, 122, 89, 0.6), 0 0 60px rgba(255, 122, 89, 0.3);
+      animation: entrada 1.5s ease-out;
+      max-width: 600px;
+      width: 100%;
+      color: #ffffff;
+    }
 
-        .btn-voltar,
-        .btn-registrar {
-            background-color: #FF7A59;
-            border: none;
-            color: white;
-            font-weight: 500;
-            padding: 10px 25px;
-            border-radius: 8px;
-            font-size: 1.1rem;
-            transition: background-color 0.3s, transform 0.2s;
-        }
+    .container {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
 
-        .btn-voltar:hover,
-        .btn-registrar:hover {
-            background-color: #e66a50;
-            transform: scale(1.05);
-        }
+    .btn-voltar,
+    .btn-registrar,
+    .btn-hall,
+    .btn-salvar {
+      background-color: #FF7A59;
+      border: none;
+      color: white;
+      font-weight: 500;
+      padding: 10px 25px;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      transition: background-color 0.3s, transform 0.2s;
+      margin-top: 1rem;
+    }
 
-        .btn-salvar {
-            background-color: #28a745;
-            border: none;
-            color: white;
-            font-weight: 500;
-        }
+    .btn-voltar:hover,
+    .btn-registrar:hover,
+    .btn-hall:hover {
+      background-color: #e66a50;
+      transform: scale(1.05);
+    }
 
-        .btn-salvar:hover {
-            background-color: #218838;
-        }
+    .btn-salvar {
+      background-color: #28a745;
+    }
 
-        .resultado-num {
-            font-size: 2rem;
-            font-weight: bold;
-            color: #FFD700;
-        }
+    .btn-salvar:hover {
+      background-color: #218838;
+    }
 
-        .feedback {
-            font-size: 1.2rem;
-            font-weight: 500;
-            margin-top: 1rem;
-        }
+    .btn-registrar.clicked {
+      opacity: 0.7;
+      pointer-events: none;
+    }
 
-        .container {
-            padding: 2rem;
-        }
+    .resultado-num {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #FFD700;
+    }
 
-        @media (max-width: 576px) {
-            .card {
-                padding: 2rem 1rem;
-            }
-        }
-    </style>
+    .feedback {
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-top: 1rem;
+    }
+
+    input[type="text"] {
+      border-radius: 8px;
+      padding: 10px;
+      font-size: 1rem;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 1);
+    }
+    /* Efeito de destaque quando selecionado */
+    input[type="text"]:focus {
+      /*border-color: #ff7a59; /* Mesma cor dos botões */
+      box-shadow: 0 0 10px rgba(255, 0, 0, 1);
+    }
+
+    @media (max-width: 576px) {
+      .card {
+        padding: 2rem 1rem;
+      }
+    }
+
+    /* Esconde o botão "Ver Hall da Fama" inicial ao abrir registro */
+    .hide-on-registro {
+      display: none;
+    }
+  </style>
 </head>
 <body>
-    <div class="container d-flex flex-column justify-content-center align-items-center vh-100">
-        <div class="card p-5 text-center shadow-lg mb-4">
-            <h2 class="mb-4">🎯 Resultado Final</h2>
-            <p class="fs-4">
-                Você acertou 
-                <span class="resultado-num">{{ acertos }}</span> de 
-                <span class="resultado-num">{{ total }}</span> perguntas.
-            </p>
+  <div class="container">
+    <div class="card text-center">
+      <h2 class="mb-4 text-warning">🎯 Resultado Final</h2>
+      <p class="fs-4">
+        Você acertou 
+        <span class="resultado-num">{{ acertos }}</span> de 
+        <span class="resultado-num">{{ total }}</span> perguntas.
+      </p>
 
-            <p class="feedback">{{ feedback }}</p>
+      <p class="feedback">{{ feedback }}</p>
 
-            <a href="/" class="btn btn-voltar mt-4">🔄 Tentar Novamente</a>
+      <a href="/" class="btn btn-voltar">🔄 Tentar Novamente</a>
 
-            <button id="registrarPlacar" class="btn btn-registrar mt-3">🏅 Registrar Placar</button>
+      <button id="registrarPlacar" class="btn btn-registrar">🏅 Registrar Placar</button>
 
-            <div id="formRegistro" class="mt-4" style="display: none;">
-                <form method="POST" action="/registrar">
-                    <div class="mb-3">
-                        <input type="text" name="nome" placeholder="Nome" required class="form-control text-center mx-auto" style="max-width: 300px;">
-                        <input type="hidden" name="acertos" value="{{ acertos }}">
-                    </div>
-                    <button type="submit" class="btn btn-salvar">💾 Salvar no Hall da Fama</button>
-                </form>
-            </div>
-        </div>
+      <!-- Botão inicial do Hall da Fama -->
+      <a id="verHallInicial" href="/hall-da-fama" class="btn btn-hall">🏆 Ver Hall da Fama</a>
+
+      <!-- Formulário de registro -->
+      <div id="formRegistro" class="mt-3" style="display: none;">
+        <form method="POST" action="/registrar">
+          <div class="mb-3">
+            <input type="text" name="nome" placeholder="Nome" required class="form-control text-center mx-auto" style="max-width: 300px;">
+            <input type="hidden" name="acertos" value="{{ acertos }}">
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-salvar">💾 Entrar no Hall da Fama</button>
+          </div>
+        </form>
+      </div>
     </div>
+  </div>
 
-    <script>
-        document.getElementById('registrarPlacar').addEventListener('click', function () {
-            document.getElementById('formRegistro').style.display = 'block';
-            this.style.display = 'none';
-        });
-    </script>
+  <script>
+    document.getElementById('registrarPlacar').addEventListener('click', function () {
+      const form = document.getElementById('formRegistro');
+      const botao = this;
+      const hallInicial = document.getElementById('verHallInicial');
+      const hallFinal = document.getElementById('verHallFinal');
+
+      form.style.display = 'block';
+      botao.classList.add('clicked');
+      hallInicial.style.display = 'none';
+      hallFinal.style.display = 'inline-block';
+    });
+  </script>
 </body>
 </html>

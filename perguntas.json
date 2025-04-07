@@ -1,362 +1,1802 @@
 [
   {
     "nivel": "fácil",
-    "pergunta": "Qual fruta é conhecida por ter muitas sementes pequenas em seu interior?",
-    "opcoes": ["Maçã", "Uva", "Maracujá", "Pera"],
-    "resposta_correta": "Maracujá"
+    "pergunta": "Qual é o animal mais rápido em terra?",
+    "opcoes": ["Leão", "Guepardo", "Cavalo", "Cachorro"],
+    "resposta_correta": "Guepardo"
   },
   {
     "nivel": "fácil",
-    "pergunta": "O que é necessário para que uma planta faça fotossíntese?",
-    "opcoes": ["Luz solar", "Sal", "Gelo", "Areia"],
-    "resposta_correta": "Luz solar"
+    "pergunta": "Qual é a cor do céu em um dia claro?",
+    "opcoes": ["Verde", "Amarelo", "Azul", "Vermelho"],
+    "resposta_correta": "Azul"
   },
   {
     "nivel": "fácil",
-    "pergunta": "Em qual continente está localizado o Brasil?",
-    "opcoes": ["Europa", "África", "América do Sul", "Ásia"],
-    "resposta_correta": "América do Sul"
+    "pergunta": "Qual fruta é conhecida como a 'rainha das frutas'?",
+    "opcoes": ["Maçã", "Banana", "Manga", "Morango"],
+    "resposta_correta": "Manga"
   },
   {
     "nivel": "fácil",
-    "pergunta": "Quantos segundos tem um minuto?",
-    "opcoes": ["30", "60", "100", "120"],
-    "resposta_correta": "60"
+    "pergunta": "Qual é o esporte mais popular do mundo?",
+    "opcoes": ["Basquete", "Futebol", "Tênis", "Críquete"],
+    "resposta_correta": "Futebol"
   },
   {
     "nivel": "fácil",
-    "pergunta": "Qual é o nome do líquido que sai da torneira?",
-    "opcoes": ["Óleo", "Suco", "Água", "Leite"],
+    "pergunta": "Qual é o nome do planeta onde vivemos?",
+    "opcoes": ["Marte", "Vênus", "Terra", "Júpiter"],
+    "resposta_correta": "Terra"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o maior mamífero do mundo?",
+    "opcoes": ["Elefante", "Baleia Azul", "Girafa", "Urso"],
+    "resposta_correta": "Baleia Azul"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o idioma oficial do Brasil?",
+    "opcoes": ["Espanhol", "Inglês", "Português", "Francês"],
+    "resposta_correta": "Português"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do famoso rato da Disney?",
+    "opcoes": ["Donald", "Mickey", "Goofy", "Pluto"],
+    "resposta_correta": "Mickey"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual objeto é usado para escrever em um quadro-negro?",
+    "opcoes": ["Caneta", "Lápis", "Giz", "Pincel"],
+    "resposta_correta": "Giz"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é a capital da França?",
+    "opcoes": ["Londres", "Paris", "Roma", "Madri"],
+    "resposta_correta": "Paris"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o instrumento usado para medir o tempo?",
+    "opcoes": ["Régua", "Relógio", "Termômetro", "Bússola"],
+    "resposta_correta": "Relógio"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do super-herói que usa teias para se balançar?",
+    "opcoes": ["Batman", "Superman", "Homem-Aranha", "Hulk"],
+    "resposta_correta": "Homem-Aranha"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o líquido essencial para a vida humana?",
+    "opcoes": ["Suco", "Água", "Refrigerante", "Leite"],
     "resposta_correta": "Água"
   },
   {
     "nivel": "fácil",
-    "pergunta": "Que cor resulta da mistura de azul com amarelo?",
-    "opcoes": ["Verde", "Roxo", "Laranja", "Cinza"],
-    "resposta_correta": "Verde"
+    "pergunta": "Qual é o nome do jogo com peças que caem e se encaixam?",
+    "opcoes": ["Xadrez", "Tetris", "Damas", "Quebra-Cabeça"],
+    "resposta_correta": "Tetris"
   },
   {
     "nivel": "fácil",
-    "pergunta": "Qual é o nome do animal que mia?",
-    "opcoes": ["Cachorro", "Gato", "Cavalo", "Leão"],
+    "pergunta": "Qual é o continente onde fica o Brasil?",
+    "opcoes": ["África", "Ásia", "América", "Europa"],
+    "resposta_correta": "América"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome da estrela que ilumina a Terra?",
+    "opcoes": ["Lua", "Sol", "Vênus", "Marte"],
+    "resposta_correta": "Sol"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Quem é o maior ídolo da história do 'Flamengo'?",
+    "opcoes": ["Leandro", "Gabigol", "Zico", "Junior"],
+    "resposta_correta": "Zico"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o animal que mia?",
+    "opcoes": ["Cachorro", "Gato", "Pássaro", "Cavalo"],
     "resposta_correta": "Gato"
   },
   {
     "nivel": "fácil",
-    "pergunta": "Qual é o planeta mais próximo do Sol?",
-    "opcoes": ["Terra", "Vênus", "Marte", "Mercúrio"],
-    "resposta_correta": "Mercúrio"
+    "pergunta": "Qual é o sabor mais comum de sorvete?",
+    "opcoes": ["Chocolate", "Baunilha", "Morango", "Limão"],
+    "resposta_correta": "Baunilha"
   },
   {
     "nivel": "fácil",
-    "pergunta": "Que instrumento mede a temperatura?",
-    "opcoes": ["Régua", "Barômetro", "Termômetro", "Bússola"],
+    "pergunta": "Qual é o nome do famoso mágico que usa varinha?",
+    "opcoes": ["Gandalf", "Harry Potter", "Merlin", "Dumbledore"],
+    "resposta_correta": "Harry Potter"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o veículo que anda sobre trilhos?",
+    "opcoes": ["Carro", "Trem", "Bicicleta", "Ônibus"],
+    "resposta_correta": "Trem"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o país conhecido pelas pirâmides?",
+    "opcoes": ["México", "Egito", "China", "Índia"],
+    "resposta_correta": "Egito"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o metal usado em moedas brilhantes?",
+    "opcoes": ["Ferro", "Ouro", "Prata", "Cobre"],
+    "resposta_correta": "Prata"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do rei dos deuses na mitologia grega?",
+    "opcoes": ["Poseidon", "Zeus", "Hades", "Apolo"],
+    "resposta_correta": "Zeus"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o esporte jogado com uma bola e um taco?",
+    "opcoes": ["Futebol", "Beisebol", "Tênis", "Golfe"],
+    "resposta_correta": "Beisebol"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o maior felino do mundo?",
+    "opcoes": ["Leão", "Tigre", "Leopardo", "Gato"],
+    "resposta_correta": "Tigre"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome da moeda usada no Japão?",
+    "opcoes": ["Dólar", "Euro", "Iene", "Real"],
+    "resposta_correta": "Iene"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o material usado para fazer papel?",
+    "opcoes": ["Plástico", "Madeira", "Metal", "Vidro"],
+    "resposta_correta": "Madeira"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do pássaro que não voa?",
+    "opcoes": ["Águia", "Pinguim", "Falcão", "Coruja"],
+    "resposta_correta": "Pinguim"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o doce feito de cacau?",
+    "opcoes": ["Caramelo", "Chocolate", "Bala", "Gelatina"],
+    "resposta_correta": "Chocolate"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome da estação mais quente do ano?",
+    "opcoes": ["Inverno", "Verão", "Outono", "Primavera"],
+    "resposta_correta": "Verão"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o país conhecido como a terra dos cangurus?",
+    "opcoes": ["África do Sul", "Austrália", "Nova Zelândia", "Canadá"],
+    "resposta_correta": "Austrália"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o instrumento que tem cordas e é tocado com arco?",
+    "opcoes": ["Piano", "Violino", "Bateria", "Flauta"],
+    "resposta_correta": "Violino"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do filme sobre um navio que afunda?",
+    "opcoes": ["Titanic", "Jurassic Park", "Star Wars", "Matrix"],
+    "resposta_correta": "Titanic"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o animal que vive na água e tem barbatanas?",
+    "opcoes": ["Cachorro", "Peixe", "Gato", "Pássaro"],
+    "resposta_correta": "Peixe"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o país onde fica a Torre Eiffel?",
+    "opcoes": ["Itália", "França", "Espanha", "Alemanha"],
+    "resposta_correta": "França"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do console da Sony?",
+    "opcoes": ["Xbox", "PlayStation", "Nintendo Switch", "Sega Genesis"],
+    "resposta_correta": "PlayStation"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o legume usado para fazer batata frita?",
+    "opcoes": ["Cenoura", "Batata", "Beterraba", "Abobrinha"],
+    "resposta_correta": "Batata"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do primeiro homem a pisar na Lua?",
+    "opcoes": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "John Glenn"],
+    "resposta_correta": "Neil Armstrong"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o esporte praticado com luvas e socos?",
+    "opcoes": ["Boxe", "Judô", "Karatê", "Taekwondo"],
+    "resposta_correta": "Boxe"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome da bebida feita de uvas?",
+    "opcoes": ["Cerveja", "Vinho", "Suco", "Refrigerante"],
+    "resposta_correta": "Vinho"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o país famoso pelo samba?",
+    "opcoes": ["Argentina", "Brasil", "México", "Colômbia"],
+    "resposta_correta": "Brasil"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o animal conhecido por sua tromba longa?",
+    "opcoes": ["Rinoceronte", "Elefante", "Hipopótamo", "Girafa"],
+    "resposta_correta": "Elefante"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do autor de 'Dom Casmurro'?",
+    "opcoes": ["Machado de Assis", "José de Alencar", "Graciliano Ramos", "Jorge Amado"],
+    "resposta_correta": "Machado de Assis"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o esporte jogado em um campo com 11 jogadores de cada lado?",
+    "opcoes": ["Rugby", "Futebol", "Hóquei", "Críquete"],
+    "resposta_correta": "Futebol"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o país onde fica o Monte Fuji?",
+    "opcoes": ["China", "Japão", "Coreia do Sul", "Tailândia"],
+    "resposta_correta": "Japão"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do famoso cientista que descobriu a penicilina?",
+    "opcoes": ["Albert Einstein", "Alexander Fleming", "Isaac Newton", "Galileu Galilei"],
+    "resposta_correta": "Alexander Fleming"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o animal que tem listras pretas e brancas?",
+    "opcoes": ["Tigre", "Zebra", "Leopardo", "Panda"],
+    "resposta_correta": "Zebra"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do jogo de cartas com 52 peças?",
+    "opcoes": ["Uno", "Baralho", "Dominós", "Xadrez"],
+    "resposta_correta": "Baralho"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o país conhecido como a terra dos vikings?",
+    "opcoes": ["Suécia", "Noruega", "Dinamarca", "Finlândia"],
+    "resposta_correta": "Noruega"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do famoso vulcão italiano que destruiu Pompeia?",
+    "opcoes": ["Etna", "Vesúvio", "Stromboli", "Kilimanjaro"],
+    "resposta_correta": "Vesúvio"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o país que tem a Torre de Pisa?",
+    "opcoes": ["França", "Itália", "Espanha", "Grécia"],
+    "resposta_correta": "Itália"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do instrumento usado para soprar e fazer música?",
+    "opcoes": ["Violino", "Flauta", "Piano", "Guitarra"],
+    "resposta_correta": "Flauta"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o animal que é símbolo da paz?",
+    "opcoes": ["Pombo", "Águia", "Corvo", "Gavião"],
+    "resposta_correta": "Pombo"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do famoso dinossauro com chifres na cabeça?",
+    "opcoes": ["Tiranossauro", "Tricerátops", "Velociraptor", "Estegossauro"],
+    "resposta_correta": "Tricerátops"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o país conhecido pelo tango?",
+    "opcoes": ["Brasil", "Argentina", "Uruguai", "Chile"],
+    "resposta_correta": "Argentina"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do dispositivo usado para tirar fotos?",
+    "opcoes": ["Telefone", "Câmera", "Televisão", "Rádio"],
+    "resposta_correta": "Câmera"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o esporte praticado em uma piscina?",
+    "opcoes": ["Futebol", "Natação", "Basquete", "Tênis"],
+    "resposta_correta": "Natação"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome da pedra preciosa verde?",
+    "opcoes": ["Rubi", "Esmeralda", "Safira", "Diamante"],
+    "resposta_correta": "Esmeralda"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o país onde fica o Big Ben?",
+    "opcoes": ["França", "Reino Unido", "Alemanha", "Irlanda"],
+    "resposta_correta": "Reino Unido"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do personagem azul dos videogames da Sega?",
+    "opcoes": ["Mario", "Sonic", "Link", "Pikachu"],
+    "resposta_correta": "Sonic"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o animal que hiberna no inverno?",
+    "opcoes": ["Urso", "Leão", "Tigre", "Lobo"],
+    "resposta_correta": "Urso"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do esporte com uma bola pequena e tacos longos?",
+    "opcoes": ["Golfe", "Tênis", "Beisebol", "Hóquei"],
+    "resposta_correta": "Golfe"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o país famoso pela pizza?",
+    "opcoes": ["Espanha", "Itália", "Grécia", "Portugal"],
+    "resposta_correta": "Itália"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do líquido vermelho no corpo humano?",
+    "opcoes": ["Água", "Suco", "Sangue", "Leite"],
+    "resposta_correta": "Sangue"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do famoso quadro de Leonardo da Vinci?",
+    "opcoes": ["Mona Lisa", "A Última Ceia", "O Grito", "Guernica"],
+    "resposta_correta": "Mona Lisa"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o país onde fica a Grande Muralha?",
+    "opcoes": ["Japão", "China", "Coreia", "Índia"],
+    "resposta_correta": "China"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do instrumento que tem teclas brancas e pretas?",
+    "opcoes": ["Guitarra", "Piano", "Bateria", "Violino"],
+    "resposta_correta": "Piano"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o animal que vive em colmeias e faz mel?",
+    "opcoes": ["Formiga", "Abelha", "Vespa", "Joaninha"],
+    "resposta_correta": "Abelha"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do esporte jogado com uma raquete e uma rede?",
+    "opcoes": ["Futebol", "Tênis", "Basquete", "Vôlei"],
+    "resposta_correta": "Tênis"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o país conhecido como a terra dos faraós?",
+    "opcoes": ["Grécia", "Egito", "Turquia", "Índia"],
+    "resposta_correta": "Egito"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do planeta vermelho?",
+    "opcoes": ["Júpiter", "Marte", "Saturno", "Vênus"],
+    "resposta_correta": "Marte"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do famoso festival de cinema nos EUA?",
+    "opcoes": ["Cannes", "Oscar", "Sundance", "Veneza"],
+    "resposta_correta": "Oscar"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o animal que tem um pescoço longo?",
+    "opcoes": ["Elefante", "Girafa", "Rinoceronte", "Hipopótamo"],
+    "resposta_correta": "Girafa"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome da moeda dos Estados Unidos?",
+    "opcoes": ["Euro", "Dólar", "Libra", "Peso"],
+    "resposta_correta": "Dólar"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o esporte praticado com uma bola laranja?",
+    "opcoes": ["Futebol", "Basquete", "Vôlei", "Tênis"],
+    "resposta_correta": "Basquete"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do rio mais famoso do Brasil?",
+    "opcoes": ["Nilo", "Amazonas", "Mississipi", "Ganges"],
+    "resposta_correta": "Amazonas"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do brinquedo que gira no topo。",
+    "opcoes": ["Ioiô", "Pipa", "Pião", "Bola"],
+    "resposta_correta": "Pião"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o país conhecido pelo chá?",
+    "opcoes": ["Índia", "China", "Japão", "Inglaterra"],
+    "resposta_correta": "China"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do pássaro que fala?",
+    "opcoes": ["Coruja", "Papagaio", "Pombo", "Águia"],
+    "resposta_correta": "Papagaio"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do metal mais leve?",
+    "opcoes": ["Ferro", "Alumínio", "Ouro", "Cobre"],
+    "resposta_correta": "Alumínio"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o país onde fica a estátua da Liberdade?",
+    "opcoes": ["França", "Estados Unidos", "Canadá", "México"],
+    "resposta_correta": "Estados Unidos"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do jogo com reis, rainhas e peões?",
+    "opcoes": ["Xadrez", "Damas", "Baralho", "Dominós"],
+    "resposta_correta": "Xadrez"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o animal que salta e tem uma bolsa?",
+    "opcoes": ["Coelho", "Canguru", "Sapo", "Cachorro"],
+    "resposta_correta": "Canguru"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome da fruta amarela e longa?",
+    "opcoes": ["Maçã", "Banana", "Pera", "Laranja"],
+    "resposta_correta": "Banana"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o país conhecido pelo futebol e pela paella?",
+    "opcoes": ["Itália", "Espanha", "Portugal", "França"],
+    "resposta_correta": "Espanha"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do aparelho usado para ouvir música?",
+    "opcoes": ["Televisão", "Rádio", "Telefone", "Computador"],
+    "resposta_correta": "Rádio"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o animal que tem penas e bico?",
+    "opcoes": ["Cachorro", "Pássaro", "Peixe", "Gato"],
+    "resposta_correta": "Pássaro"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do continente gelado do sul?",
+    "opcoes": ["África", "Antártica", "Ásia", "Europa"],
+    "resposta_correta": "Antártica"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o esporte que usa uma bicicleta?",
+    "opcoes": ["Ciclismo", "Natação", "Futebol", "Boxe"],
+    "resposta_correta": "Ciclismo"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do personagem de 'Star Wars' que usa uma máscara preta?",
+    "opcoes": ["Yoda", "Luke Skywalker", "Darth Vader", "Han Solo"],
+    "resposta_correta": "Darth Vader"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o país conhecido pelas tulipas?",
+    "opcoes": ["Holanda", "Bélgica", "Alemanha", "Suíça"],
+    "resposta_correta": "Holanda"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do instrumento que marca o ritmo da música?",
+    "opcoes": ["Guitarra", "Bateria", "Piano", "Violino"],
+    "resposta_correta": "Bateria"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o animal que é conhecido por sua inteligência?",
+    "opcoes": ["Baleia", "Golfinho", "Tubarão", "Peixe"],
+    "resposta_correta": "Golfinho"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do primeiro mês do ano?",
+    "opcoes": ["Fevereiro", "Janeiro", "Março", "Abril"],
+    "resposta_correta": "Janeiro"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o país famoso pelo sushi?",
+    "opcoes": ["China", "Japão", "Coreia", "Tailândia"],
+    "resposta_correta": "Japão"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do material brilhante usado em joias?",
+    "opcoes": ["Ferro", "Diamante", "Cobre", "Plástico"],
+    "resposta_correta": "Diamante"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o esporte praticado com patins no gelo?",
+    "opcoes": ["Natação", "Patinação", "Esqui", "Ciclismo"],
+    "resposta_correta": "Patinação"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o nome do famoso explorador que descobriu a América?",
+    "opcoes": ["Cristóvão Colombo", "Marco Polo", "Vasco da Gama", "Fernão de Magalhães"],
+    "resposta_correta": "Cristóvão Colombo"
+  },
+  {
+    "nivel": "fácil",
+    "pergunta": "Qual é o país conhecido pelo maple syrup?",
+    "opcoes": ["Estados Unidos", "Canadá", "México", "Rússia"],
+    "resposta_correta": "Canadá"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que sediou a primeira Copa do Mundo de Futebol, em 1930?",
+    "opcoes": ["Brasil", "Uruguai", "Itália", "França"],
+    "resposta_correta": "Uruguai"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o elemento químico mais abundante no universo?",
+    "opcoes": ["Oxigênio", "Hidrogênio", "Carbono", "Hélio"],
+    "resposta_correta": "Hidrogênio"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do rio que atravessa a cidade de Londres?",
+    "opcoes": ["Sena", "Tâmisa", "Danúbio", "Reno"],
+    "resposta_correta": "Tâmisa"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o filme que venceu o Oscar de Melhor Filme em 1994?",
+    "opcoes": ["Pulp Fiction", "Forrest Gump", "O Rei Leão", "Um Sonho de Liberdade"],
+    "resposta_correta": "Forrest Gump"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que inventou a pólvora?",
+    "opcoes": ["Japão", "China", "Índia", "Egito"],
+    "resposta_correta": "China"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do cientista que propôs a teoria da evolução por seleção natural?",
+    "opcoes": ["Albert Einstein", "Charles Darwin", "Isaac Newton", "Gregor Mendel"],
+    "resposta_correta": "Charles Darwin"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o esporte em que se usa um taco e uma bola pequena em um campo verde?",
+    "opcoes": ["Beisebol", "Golfe", "Hóquei", "Críquete"],
+    "resposta_correta": "Golfe"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do compositor da 'Quinta Sinfonia'?",
+    "opcoes": ["Mozart", "Beethoven", "Bach", "Vivaldi"],
+    "resposta_correta": "Beethoven"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem o maior número de vulcões ativos?",
+    "opcoes": ["Japão", "Indonésia", "Itália", "Islândia"],
+    "resposta_correta": "Indonésia"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do satélite natural da Terra?",
+    "opcoes": ["Sol", "Lua", "Marte", "Vênus"],
+    "resposta_correta": "Lua"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o jogo que popularizou o personagem Lara Croft?",
+    "opcoes": ["Resident Evil", "Tomb Raider", "Final Fantasy", "Metal Gear"],
+    "resposta_correta": "Tomb Raider"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que conquistou a independência dos EUA em 1776?",
+    "opcoes": ["França", "Espanha", "Reino Unido", "Portugal"],
+    "resposta_correta": "Reino Unido"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do autor de 'O Pequeno Príncipe'?",
+    "opcoes": ["Antoine de Saint-Exupéry", "Victor Hugo", "Jules Verne", "Marcel Proust"],
+    "resposta_correta": "Antoine de Saint-Exupéry"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o maior deserto quente do mundo?",
+    "opcoes": ["Saara", "Gobi", "Kalahari", "Atacama"],
+    "resposta_correta": "Saara"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do primeiro console da Nintendo lançado em 1983?",
+    "opcoes": ["Game Boy", "NES", "Super Nintendo", "N64"],
+    "resposta_correta": "NES"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país onde nasceu o pintor Pablo Picasso?",
+    "opcoes": ["França", "Espanha", "Itália", "México"],
+    "resposta_correta": "Espanha"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o elemento químico representado por 'Fe' na tabela periódica?",
+    "opcoes": ["Ferro", "Fósforo", "Flúor", "Frâncio"],
+    "resposta_correta": "Ferro"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do diretor de 'Jurassic Park'?",
+    "opcoes": ["James Cameron", "Steven Spielberg", "Quentin Tarantino", "Christopher Nolan"],
+    "resposta_correta": "Steven Spielberg"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem a capital chamada Ottawa?",
+    "opcoes": ["Austrália", "Canadá", "Nova Zelândia", "Irlanda"],
+    "resposta_correta": "Canadá"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do instrumento de cordas típico do Havaí?",
+    "opcoes": ["Violão", "Ukulele", "Banjo", "Harpa"],
+    "resposta_correta": "Ukulele"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que sediou os Jogos Olímpicos de 2008?",
+    "opcoes": ["Japão", "China", "Coreia do Sul", "Rússia"],
+    "resposta_correta": "China"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do autor de 'Romeu e Julieta'?",
+    "opcoes": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
+    "resposta_correta": "William Shakespeare"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o planeta conhecido por seus anéis visíveis?",
+    "opcoes": ["Júpiter", "Saturno", "Urano", "Netuno"],
+    "resposta_correta": "Saturno"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do esporte de combate japonês que significa 'caminho suave'?",
+    "opcoes": ["Karatê", "Judô", "Taekwondo", "Sumô"],
+    "resposta_correta": "Judô"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que inventou o papel?",
+    "opcoes": ["Egito", "China", "Grécia", "Índia"],
+    "resposta_correta": "China"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do famoso físico que desenvolveu as leis do movimento?",
+    "opcoes": ["Albert Einstein", "Isaac Newton", "Galileu Galilei", "Stephen Hawking"],
+    "resposta_correta": "Isaac Newton"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país onde fica o Monte Everest?",
+    "opcoes": ["Índia", "Nepal", "China", "Butão"],
+    "resposta_correta": "Nepal"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do jogo de tabuleiro com propriedades e hotéis?",
+    "opcoes": ["Xadrez", "Monopoly", "Damas", "War"],
+    "resposta_correta": "Monopoly"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem a capital chamada Cidade do México?",
+    "opcoes": ["México", "Colômbia", "Peru", "Venezuela"],
+    "resposta_correta": "México"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do rio que atravessa o Egito?",
+    "opcoes": ["Amazonas", "Nilo", "Mississipi", "Yangtzé"],
+    "resposta_correta": "Nilo"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do diretor de 'O Poderoso Chefão'?",
+    "opcoes": ["Martin Scorsese", "Francis Ford Coppola", "Stanley Kubrick", "Alfred Hitchcock"],
+    "resposta_correta": "Francis Ford Coppola"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem o idioma oficial chamado alemão?",
+    "opcoes": ["Suíça", "Áustria", "Alemanha", "Bélgica"],
+    "resposta_correta": "Alemanha"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do instrumento usado para medir a temperatura?",
+    "opcoes": ["Barômetro", "Termômetro", "Higrômetro", "Anemômetro"],
     "resposta_correta": "Termômetro"
   },
   {
-    "nivel": "fácil",
-    "pergunta": "Qual é o dia que vem depois da sexta-feira?",
-    "opcoes": ["Quarta-feira", "Sábado", "Domingo", "Segunda-feira"],
-    "resposta_correta": "Sábado"
+    "nivel": "médio",
+    "pergunta": "Qual é o país que sediou os Jogos Olímpicos de 2016?",
+    "opcoes": ["Japão", "Brasil", "China", "Reino Unido"],
+    "resposta_correta": "Brasil"
   },
   {
-    "nivel": "fácil",
-    "pergunta": "Quem é o personagem que vive em um abacaxi no fundo do mar?",
-    "opcoes": ["Bob Esponja", "Patrick", "Peppa Pig", "Mickey Mouse"],
-    "resposta_correta": "Bob Esponja"
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do autor de '1984'?",
+    "opcoes": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "Philip K. Dick"],
+    "resposta_correta": "George Orwell"
   },
   {
-    "nivel": "fácil",
-    "pergunta": "Qual é a capital do Brasil?",
-    "opcoes": ["São Paulo", "Rio de Janeiro", "Brasília", "Belo Horizonte"],
-    "resposta_correta": "Brasília"
+    "nivel": "médio",
+    "pergunta": "Qual é o elemento químico essencial para a respiração?",
+    "opcoes": ["Nitrogênio", "Oxigênio", "Carbono", "Hidrogênio"],
+    "resposta_correta": "Oxigênio"
   },
   {
-    "nivel": "fácil",
-    "pergunta": "Qual é o nome do famoso jogo onde se constrói com blocos?",
-    "opcoes": ["Minecraft", "FIFA", "Free Fire", "Among Us"],
-    "resposta_correta": "Minecraft"
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do esporte praticado em um ringue com cordas?",
+    "opcoes": ["Judô", "Boxe", "Karatê", "Luta Livre"],
+    "resposta_correta": "Boxe"
   },
   {
-    "nivel": "fácil",
-    "pergunta": "O que usamos para ver melhor quando temos dificuldade de enxergar?",
-    "opcoes": ["Óculos", "Relógio", "Anel", "Colar"],
-    "resposta_correta": "Óculos"
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem a capital chamada Tóquio?",
+    "opcoes": ["China", "Japão", "Coreia do Sul", "Tailândia"],
+    "resposta_correta": "Japão"
   },
   {
-    "nivel": "fácil",
-    "pergunta": "Que animal é conhecido por ser o melhor amigo do homem?",
-    "opcoes": ["Gato", "Cachorro", "Papagaio", "Tartaruga"],
-    "resposta_correta": "Cachorro"
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do famoso pintor holandês de 'A Noite Estrelada'?",
+    "opcoes": ["Rembrandt", "Van Gogh", "Vermeer", "Mondrian"],
+    "resposta_correta": "Van Gogh"
   },
   {
-    "nivel": "fácil",
-    "pergunta": "Qual é o som que o galo faz?",
-    "opcoes": ["Miau", "Au au", "Cocoricó", "Oinc oinc"],
-    "resposta_correta": "Cocoricó"
+    "nivel": "médio",
+    "pergunta": "Qual é o planeta mais quente do Sistema Solar?",
+    "opcoes": ["Mercúrio", "Vênus", "Marte", "Júpiter"],
+    "resposta_correta": "Vênus"
   },
   {
-    "nivel": "fácil",
-    "pergunta": "Qual é o nome do famoso buscador da internet?",
-    "opcoes": ["Yahoo", "Bing", "Google", "Ask"],
-    "resposta_correta": "Google"
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do jogo que usa um controle de movimento chamado Wiimote?",
+    "opcoes": ["PlayStation", "Xbox", "Wii", "Nintendo Switch"],
+    "resposta_correta": "Wii"
   },
   {
-    "nivel": "fácil",
-    "pergunta": "O que acendemos quando falta luz?",
-    "opcoes": ["Lanterna", "Fogão", "Ventilador", "Televisão"],
-    "resposta_correta": "Lanterna"
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem a capital chamada Canberra?",
+    "opcoes": ["Nova Zelândia", "Austrália", "Canadá", "África do Sul"],
+    "resposta_correta": "Austrália"
   },
   {
-    "nivel": "fácil",
-    "pergunta": "Quantas patas tem uma aranha?",
-    "opcoes": ["6", "8", "10", "12"],
-    "resposta_correta": "8"
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do instrumento de sopro feito de metal?",
+    "opcoes": ["Flauta", "Trompete", "Clarinete", "Saxofone"],
+    "resposta_correta": "Trompete"
   },
   {
-    "nivel": "fácil",
-    "pergunta": "Qual o nome do feitiço usado para desarmar outro bruxo em Harry Potter?",
-    "opcoes": ["Expecto Patronum", "Alohomora", "Expelliarmus", "Lumos"],
-    "resposta_correta": "Expelliarmus"
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem o maior número de ilhas no mundo?",
+    "opcoes": ["Indonésia", "Filipinas", "Japão", "Grécia"],
+    "resposta_correta": "Indonésia"
   },
-    {
-      "nivel": "médio",
-      "pergunta": "Qual é a capital do estado de Pernambuco?",
-      "opcoes": ["Salvador", "Fortaleza", "Recife", "Natal"],
-      "resposta_correta": "Recife"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "Qual o nome do gás essencial para a respiração humana?",
-      "opcoes": ["Nitrogênio", "Oxigênio", "Hidrogênio", "Gás carbônico"],
-      "resposta_correta": "Oxigênio"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "Quem escreveu o romance 'Dom Casmurro'?",
-      "opcoes": ["José de Alencar", "Machado de Assis", "Graciliano Ramos", "Carlos Drummond de Andrade"],
-      "resposta_correta": "Machado de Assis"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "Quantas cores tem a bandeira do Brasil?",
-      "opcoes": ["Três", "Quatro", "Cinco", "Seis"],
-      "resposta_correta": "Quatro"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "Qual o nome da cantora que lançou a música 'Envolver'?",
-      "opcoes": ["Ludmilla", "Pabllo Vittar", "Anitta", "Iza"],
-      "resposta_correta": "Anitta"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "Em que país nasceu o futebol?",
-      "opcoes": ["Brasil", "Espanha", "Alemanha", "Inglaterra"],
-      "resposta_correta": "Inglaterra"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "O que significa 'WWW' na internet?",
-      "opcoes": ["World Wide Web", "Web World Window", "Web Without Wires", "Wide Web World"],
-      "resposta_correta": "World Wide Web"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "Qual desses planetas é conhecido por ter anéis ao seu redor?",
-      "opcoes": ["Marte", "Júpiter", "Urano", "Saturno"],
-      "resposta_correta": "Saturno"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "Que animal é símbolo da sabedoria em muitas culturas?",
-      "opcoes": ["Gato", "Coruja", "Cachorro", "Raposa"],
-      "resposta_correta": "Coruja"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "Quem é o autor da teoria da relatividade?",
-      "opcoes": ["Isaac Newton", "Stephen Hawking", "Galileu Galilei", "Albert Einstein"],
-      "resposta_correta": "Albert Einstein"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "Qual é a moeda oficial do Japão?",
-      "opcoes": ["Iene", "Dólar", "Yuan", "Euro"],
-      "resposta_correta": "Iene"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "Qual é o maior estado do Brasil em extensão territorial?",
-      "opcoes": ["Amazonas", "Pará", "Mato Grosso", "Bahia"],
-      "resposta_correta": "Amazonas"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "Qual é o metal líquido à temperatura ambiente?",
-      "opcoes": ["Chumbo", "Mercúrio", "Cobre", "Ouro"],
-      "resposta_correta": "Mercúrio"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "Quantos lados tem um hexágono?",
-      "opcoes": ["Cinco", "Seis", "Sete", "Oito"],
-      "resposta_correta": "Seis"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "Qual país sediou a Copa do Mundo de 2022?",
-      "opcoes": ["Brasil", "Rússia", "Qatar", "Alemanha"],
-      "resposta_correta": "Qatar"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "Quem pintou 'A Última Ceia'?",
-      "opcoes": ["Michelangelo", "Leonardo da Vinci", "Pablo Picasso", "Rembrandt"],
-      "resposta_correta": "Leonardo da Vinci"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "Em qual estação do ano as flores desabrocham com mais frequência?",
-      "opcoes": ["Verão", "Primavera", "Outono", "Inverno"],
-      "resposta_correta": "Primavera"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "Qual é o coletivo de lobos?",
-      "opcoes": ["Alcateia", "Manada", "Bando", "Matilha"],
-      "resposta_correta": "Alcateia"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "Qual elemento químico tem como símbolo a letra 'O'?",
-      "opcoes": ["Ouro", "Oxigênio", "Osônio", "Ósmio"],
-      "resposta_correta": "Oxigênio"
-    },
-    {
-      "nivel": "médio",
-      "pergunta": "Qual é o órgão do corpo humano responsável por bombear sangue?",
-      "opcoes": ["Pulmão", "Estômago", "Fígado", "Coração"],
-      "resposta_correta": "Coração"
-    },
-    {
-        "nivel": "difícil",
-        "pergunta": "Qual o nome da missão da NASA que conseguiu pousar um rover em Marte em 2021?",
-        "opcoes": ["Pathfinder", "Curiosity", "Opportunity", "Perseverance"],
-        "resposta_correta": "Perseverance"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Quem foi a primeira mulher a ganhar um Prêmio Nobel?",
-        "opcoes": ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Jane Goodall"],
-        "resposta_correta": "Marie Curie"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Qual é a capital da Nova Zelândia?",
-        "opcoes": ["Auckland", "Wellington", "Christchurch", "Hamilton"],
-        "resposta_correta": "Wellington"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Qual artista brasileiro pintou o famoso quadro 'Abaporu'?",
-        "opcoes": ["Cândido Portinari", "Tarsila do Amaral", "Di Cavalcanti", "Anita Malfatti"],
-        "resposta_correta": "Tarsila do Amaral"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Quantos cromossomos humanos existem em uma célula somática normal?",
-        "opcoes": ["23", "46", "48", "92"],
-        "resposta_correta": "46"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Qual foi o primeiro país a legalizar o casamento entre pessoas do mesmo sexo?",
-        "opcoes": ["Canadá", "Holanda", "Bélgica", "Suécia"],
-        "resposta_correta": "Holanda"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Qual é o menor país do mundo em área territorial?",
-        "opcoes": ["Mônaco", "San Marino", "Vaticano", "Liechtenstein"],
-        "resposta_correta": "Vaticano"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Qual dessas empresas foi fundada primeiro?",
-        "opcoes": ["Google", "Apple", "Microsoft", "Amazon"],
-        "resposta_correta": "Microsoft"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Que nome recebe o medo irracional de lugares fechados?",
-        "opcoes": ["Agorafobia", "Aracnofobia", "Claustrofobia", "Acrofobia"],
-        "resposta_correta": "Claustrofobia"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Qual filósofo é autor da frase 'Penso, logo existo'?",
-        "opcoes": ["Aristóteles", "Nietzsche", "Descartes", "Platão"],
-        "resposta_correta": "Descartes"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Em que país nasceu o escritor Franz Kafka?",
-        "opcoes": ["Áustria", "Alemanha", "Polônia", "República Tcheca"],
-        "resposta_correta": "República Tcheca"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Qual é o ponto mais profundo conhecido dos oceanos?",
-        "opcoes": ["Fossa de Porto Rico", "Fossa das Marianas", "Fossa de Java", "Fossa do Atlântico"],
-        "resposta_correta": "Fossa das Marianas"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Qual fenômeno astrofísico pode ser descrito como a radiação térmica emitida por um corpo negro ideal no vácuo do espaço, previsto pela teoria do Big Bang?",
-        "opcoes": ["Matéria escura", "Radiação cósmica de fundo", "Energia escura", "Efeito Doppler gravitacional"],
-        "resposta_correta": "Radiação cósmica de fundo"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Qual é o nome da doença causada pela deficiência de vitamina C?",
-        "opcoes": ["Raquitismo", "Escorbuto", "Anemia", "Béribéri"],
-        "resposta_correta": "Escorbuto"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Qual foi o primeiro satélite artificial lançado no espaço?",
-        "opcoes": ["Apollo 11", "Voyager 1", "Sputnik 1", "Hubble"],
-        "resposta_correta": "Sputnik 1"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Que país possui mais vulcões ativos no mundo?",
-        "opcoes": ["Indonésia", "Itália", "Japão", "Chile"],
-        "resposta_correta": "Indonésia"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Quem foi a primeira pessoa a ganhar dois Prêmios Nobel em áreas diferentes?",
-        "opcoes": ["Albert Einstein", "Marie Curie", "Linus Pauling", "Niels Bohr"],
-        "resposta_correta": "Marie Curie"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Qual é o nome da partícula subatômica que carrega carga negativa?",
-        "opcoes": ["Nêutron", "Próton", "Elétron", "Fóton"],
-        "resposta_correta": "Elétron"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Qual o nome do tratado que pôs fim à Primeira Guerra Mundial?",
-        "opcoes": ["Tratado de Paris", "Tratado de Tordesilhas", "Tratado de Versalhes", "Tratado de Genebra"],
-        "resposta_correta": "Tratado de Versalhes"
-      },
-      {
-        "nivel": "difícil",
-        "pergunta": "Em que ano foi criado o Plano Real no Brasil?",
-        "opcoes": ["1990", "1992", "1994", "1996"],
-        "resposta_correta": "1994"
-      }
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do autor de 'O Senhor dos Anéis'?",
+    "opcoes": ["J.K. Rowling", "J.R.R. Tolkien", "C.S. Lewis", "George R.R. Martin"],
+    "resposta_correta": "J.R.R. Tolkien"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o esporte que usa um disco voador?",
+    "opcoes": ["Frisbee", "Golfe", "Rugby", "Hóquei"],
+    "resposta_correta": "Frisbee"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem a capital chamada Oslo?",
+    "opcoes": ["Suécia", "Noruega", "Dinamarca", "Finlândia"],
+    "resposta_correta": "Noruega"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do inventor da lâmpada incandescente prática?",
+    "opcoes": ["Thomas Edison", "Nikola Tesla", "Alexander Bell", "Guglielmo Marconi"],
+    "resposta_correta": "Thomas Edison"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o maior mamífero terrestre do mundo?",
+    "opcoes": ["Elefante Africano", "Rinoceronte", "Hipopótamo", "Girafa"],
+    "resposta_correta": "Elefante Africano"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do filme sobre um boxeador chamado Rocky Balboa?",
+    "opcoes": ["Creed", "Rocky", "Raging Bull", "The Fighter"],
+    "resposta_correta": "Rocky"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem a capital chamada Nairóbi?",
+    "opcoes": ["Quênia", "Uganda", "Tanzânia", "Nigéria"],
+    "resposta_correta": "Quênia"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do compositor de 'O Lago dos Cisnes'?",
+    "opcoes": ["Tchaikovsky", "Mozart", "Beethoven", "Chopin"],
+    "resposta_correta": "Tchaikovsky"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o elemento químico conhecido como 'ouro dos tolos'?",
+    "opcoes": ["Cobre", "Pirita", "Prata", "Chumbo"],
+    "resposta_correta": "Pirita"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do diretor de 'Titanic' e 'Avatar'?",
+    "opcoes": ["Steven Spielberg", "James Cameron", "Ridley Scott", "Peter Jackson"],
+    "resposta_correta": "James Cameron"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem a capital chamada Bangkok?",
+    "opcoes": ["Vietnã", "Tailândia", "Camboja", "Laos"],
+    "resposta_correta": "Tailândia"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do esporte que usa uma bola pesada e pinos?",
+    "opcoes": ["Boliche", "Bilhar", "Golfe", "Peteca"],
+    "resposta_correta": "Boliche"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que inventou o relógio cuco?",
+    "opcoes": ["Suíça", "Alemanha", "Áustria", "França"],
+    "resposta_correta": "Alemanha"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do autor de 'Dom Quixote'?",
+    "opcoes": ["Miguel de Cervantes", "Gabriel García Márquez", "Jorge Luis Borges", "Federico García Lorca"],
+    "resposta_correta": "Miguel de Cervantes"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o planeta mais distante do Sol no Sistema Solar?",
+    "opcoes": ["Urano", "Netuno", "Saturno", "Plutão"],
+    "resposta_correta": "Netuno"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do jogo de cartas que significa 'vinte e um' em francês?",
+    "opcoes": ["Poker", "Blackjack", "Bridge", "Paciência"],
+    "resposta_correta": "Blackjack"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem a capital chamada Lisboa?",
+    "opcoes": ["Espanha", "Portugal", "Itália", "Grécia"],
+    "resposta_correta": "Portugal"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do cientista que descobriu a radioatividade?",
+    "opcoes": ["Marie Curie", "Albert Einstein", "Niels Bohr", "Ernest Rutherford"],
+    "resposta_correta": "Marie Curie"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que sediou os Jogos Olímpicos de 2012?",
+    "opcoes": ["Reino Unido", "França", "Alemanha", "Itália"],
+    "resposta_correta": "Reino Unido"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do rio mais longo da América do Sul?",
+    "opcoes": ["Amazonas", "Paraná", "São Francisco", "Orinoco"],
+    "resposta_correta": "Amazonas"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do cantor conhecido como 'Rei do Rock'?",
+    "opcoes": ["Elvis Presley", "Chuck Berry", "Little Richard", "Buddy Holly"],
+    "resposta_correta": "Elvis Presley"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem a capital chamada Helsinque?",
+    "opcoes": ["Suécia", "Noruega", "Finlândia", "Dinamarca"],
+    "resposta_correta": "Finlândia"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do instrumento usado para medir a pressão atmosférica?",
+    "opcoes": ["Termômetro", "Barômetro", "Higrômetro", "Anemômetro"],
+    "resposta_correta": "Barômetro"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem o maior número de falantes de espanhol?",
+    "opcoes": ["Espanha", "México", "Colômbia", "Argentina"],
+    "resposta_correta": "México"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do autor de 'Harry Potter'?",
+    "opcoes": ["J.K. Rowling", "Stephen King", "Rick Riordan", "Suzanne Collins"],
+    "resposta_correta": "J.K. Rowling"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o esporte praticado em uma pista de gelo com vassouras?",
+    "opcoes": ["Hóquei", "Curling", "Patinação", "Esqui"],
+    "resposta_correta": "Curling"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem a capital chamada Pretoria?",
+    "opcoes": ["Nigéria", "África do Sul", "Gana", "Quênia"],
+    "resposta_correta": "África do Sul"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do compositor de 'As Quatro Estações'?",
+    "opcoes": ["Bach", "Vivaldi", "Mozart", "Handel"],
+    "resposta_correta": "Vivaldi"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o elemento químico que forma o diamante?",
+    "opcoes": ["Carbono", "Silício", "Oxigênio", "Hidrogênio"],
+    "resposta_correta": "Carbono"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do diretor de 'Pulp Fiction'?",
+    "opcoes": ["Quentin Tarantino", "Martin Scorsese", "David Lynch", "Coen Brothers"],
+    "resposta_correta": "Quentin Tarantino"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem a capital chamada Santiago?",
+    "opcoes": ["Peru", "Chile", "Bolívia", "Equador"],
+    "resposta_correta": "Chile"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do esporte que usa uma raquete e uma peteca?",
+    "opcoes": ["Tênis", "Badminton", "Squash", "Pingue-Pongue"],
+    "resposta_correta": "Badminton"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que inventou a imprensa com tipos móveis?",
+    "opcoes": ["Alemanha", "França", "Itália", "Inglaterra"],
+    "resposta_correta": "Alemanha"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do autor de 'Orgulho e Preconceito'?",
+    "opcoes": ["Jane Austen", "Charlotte Brontë", "Emily Dickinson", "Mary Shelley"],
+    "resposta_correta": "Jane Austen"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o planeta mais próximo do Sol?",
+    "opcoes": ["Mercúrio", "Vênus", "Terra", "Marte"],
+    "resposta_correta": "Mercúrio"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do jogo lançado em 1980 com um personagem comendo pontos?",
+    "opcoes": ["Tetris", "Pac-Man", "Space Invaders", "Asteroids"],
+    "resposta_correta": "Pac-Man"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem a capital chamada Bogotá?",
+    "opcoes": ["Venezuela", "Colômbia", "Equador", "Peru"],
+    "resposta_correta": "Colômbia"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do cientista que descobriu a gravidade ao ver uma maçã cair?",
+    "opcoes": ["Albert Einstein", "Isaac Newton", "Galileu Galilei", "Copérnico"],
+    "resposta_correta": "Isaac Newton"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que sediou os Jogos Olímpicos de 2000?",
+    "opcoes": ["Austrália", "Estados Unidos", "Grécia", "Japão"],
+    "resposta_correta": "Austrália"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do rio que atravessa Paris?",
+    "opcoes": ["Sena", "Tâmisa", "Danúbio", "Reno"],
+    "resposta_correta": "Sena"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do cantor conhecido como 'Rei do Pop'?",
+    "opcoes": ["Michael Jackson", "Prince", "Elvis Presley", "Freddie Mercury"],
+    "resposta_correta": "Michael Jackson"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem a capital chamada Estocolmo?",
+    "opcoes": ["Noruega", "Suécia", "Dinamarca", "Finlândia"],
+    "resposta_correta": "Suécia"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do instrumento de cordas usado no flamenco?",
+    "opcoes": ["Violino", "Guitarra", "Bandolim", "Harpa"],
+    "resposta_correta": "Guitarra"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem o maior número de falantes de português?",
+    "opcoes": ["Portugal", "Brasil", "Angola", "Moçambique"],
+    "resposta_correta": "Brasil"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do autor de 'As Crônicas de Nárnia'?",
+    "opcoes": ["J.R.R. Tolkien", "C.S. Lewis", "J.K. Rowling", "Philip Pullman"],
+    "resposta_correta": "C.S. Lewis"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o esporte que usa uma bola pequena e uma mesa?",
+    "opcoes": ["Tênis", "Pingue-Pongue", "Squash", "Badminton"],
+    "resposta_correta": "Pingue-Pongue"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem a capital chamada Dublin?",
+    "opcoes": ["Escócia", "Irlanda", "País de Gales", "Inglaterra"],
+    "resposta_correta": "Irlanda"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do compositor de 'Noite Silenciosa'?",
+    "opcoes": ["Franz Gruber", "Johann Sebastian Bach", "Ludwig van Beethoven", "Wolfgang Amadeus Mozart"],
+    "resposta_correta": "Franz Gruber"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o elemento químico representado por 'Au'?",
+    "opcoes": ["Prata", "Ouro", "Cobre", "Alumínio"],
+    "resposta_correta": "Ouro"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do diretor de 'Clube da Luta'?",
+    "opcoes": ["David Fincher", "Christopher Nolan", "Quentin Tarantino", "Guy Ritchie"],
+    "resposta_correta": "David Fincher"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que tem a capital chamada Lima?",
+    "opcoes": ["Peru", "Bolívia", "Equador", "Chile"],
+    "resposta_correta": "Peru"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do esporte praticado em um tatame com quedas?",
+    "opcoes": ["Judô", "Boxe", "Karatê", "Taekwondo"],
+    "resposta_correta": "Judô"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o país que inventou a pizza?",
+    "opcoes": ["França", "Itália", "Grécia", "Espanha"],
+    "resposta_correta": "Itália"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do autor de 'A Metamorfose'?",
+    "opcoes": ["Franz Kafka", "Fyodor Dostoevsky", "Albert Camus", "Jean-Paul Sartre"],
+    "resposta_correta": "Franz Kafka"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o planeta conhecido como o 'gigante gasoso'?",
+    "opcoes": ["Marte", "Júpiter", "Vênus", "Mercúrio"],
+    "resposta_correta": "Júpiter"
+  },
+  {
+    "nivel": "médio",
+    "pergunta": "Qual é o nome do jogo que popularizou o personagem Master Chief?",
+    "opcoes": ["Halo", "Gears of War", "Call of Duty", "Destiny"],
+    "resposta_correta": "Halo"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a menor densidade populacional do mundo?",
+    "opcoes": ["Rússia", "Mongólia", "Austrália", "Groenlândia"],
+    "resposta_correta": "Groenlândia"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do matemático que provou o Último Teorema de Fermat?",
+    "opcoes": ["Andrew Wiles", "Pierre de Fermat", "Carl Gauss", "Leonhard Euler"],
+    "resposta_correta": "Andrew Wiles"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o rio mais longo do mundo, considerando o sistema Amazonas-Ucayali?",
+    "opcoes": ["Nilo", "Amazonas", "Yangtzé", "Mississipi"],
+    "resposta_correta": "Amazonas"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do diretor que venceu o Oscar por 'O Pianista' em 2002?",
+    "opcoes": ["Roman Polanski", "Martin Scorsese", "Clint Eastwood", "Ron Howard"],
+    "resposta_correta": "Roman Polanski"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Ulaanbaatar?",
+    "opcoes": ["Cazaquistão", "Mongólia", "Uzbequistão", "Turcomenistão"],
+    "resposta_correta": "Mongólia"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do esporte olímpico que combina esqui e tiro?",
+    "opcoes": ["Biatlo", "Triatlo", "Pentatlo", "Decatlo"],
+    "resposta_correta": "Biatlo"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que inventou o xadrez em sua forma mais antiga?",
+    "opcoes": ["China", "Índia", "Persia", "Egito"],
+    "resposta_correta": "Índia"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do autor de 'Cem Anos de Solidão'?",
+    "opcoes": ["Gabriel García Márquez", "Mario Vargas Llosa", "Jorge Luis Borges", "Isabel Allende"],
+    "resposta_correta": "Gabriel García Márquez"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o menor planeta do Sistema Solar desde a reclassificação de Plutão?",
+    "opcoes": ["Mercúrio", "Marte", "Vênus", "Terra"],
+    "resposta_correta": "Mercúrio"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do primeiro videogame arcade lançado comercialmente em 1971?",
+    "opcoes": ["Pong", "Computer Space", "Space Invaders", "Asteroids"],
+    "resposta_correta": "Computer Space"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Reykjavik?",
+    "opcoes": ["Noruega", "Islândia", "Finlândia", "Suécia"],
+    "resposta_correta": "Islândia"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do cientista que desenvolveu a teoria quântica?",
+    "opcoes": ["Max Planck", "Albert Einstein", "Niels Bohr", "Werner Heisenberg"],
+    "resposta_correta": "Max Planck"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que sediou os primeiros Jogos Olímpicos modernos em 1896?",
+    "opcoes": ["França", "Grécia", "Itália", "Reino Unido"],
+    "resposta_correta": "Grécia"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do maior lago de água doce do mundo em volume?",
+    "opcoes": ["Lago Superior", "Lago Baikal", "Lago Michigan", "Lago Titicaca"],
+    "resposta_correta": "Lago Baikal"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do cantor que liderou a banda Queen?",
+    "opcoes": ["Freddie Mercury", "Brian May", "Roger Taylor", "John Deacon"],
+    "resposta_correta": "Freddie Mercury"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Katmandu?",
+    "opcoes": ["Butão", "Nepal", "Índia", "Tibete"],
+    "resposta_correta": "Nepal"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do instrumento usado para medir a velocidade do vento?",
+    "opcoes": ["Barômetro", "Anemômetro", "Higrômetro", "Pluviômetro"],
+    "resposta_correta": "Anemômetro"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país com o maior número de Patrimônios Mundiais da UNESCO?",
+    "opcoes": ["Itália", "China", "Espanha", "França"],
+    "resposta_correta": "Itália"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do autor de 'Crime e Castigo'?",
+    "opcoes": ["Fyodor Dostoevsky", "Leo Tolstoy", "Anton Chekhov", "Ivan Turgenev"],
+    "resposta_correta": "Fyodor Dostoevsky"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o esporte que usa um taco curvo e é jogado no gelo?",
+    "opcoes": ["Hóquei", "Curling", "Polo", "Lacrosse"],
+    "resposta_correta": "Hóquei"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Tashkent?",
+    "opcoes": ["Cazaquistão", "Uzbequistão", "Turcomenistão", "Quirguistão"],
+    "resposta_correta": "Uzbequistão"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do compositor da ópera 'O Barbeiro de Sevilha'?",
+    "opcoes": ["Giuseppe Verdi", "Gioachino Rossini", "Richard Wagner", "Puccini"],
+    "resposta_correta": "Gioachino Rossini"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o elemento químico com o maior número atômico encontrado na natureza?",
+    "opcoes": ["Urânio", "Plutônio", "Tório", "Neptúnio"],
+    "resposta_correta": "Urânio"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do diretor de '2001: Uma Odisseia no Espaço'?",
+    "opcoes": ["Stanley Kubrick", "Ridley Scott", "George Lucas", "Steven Spielberg"],
+    "resposta_correta": "Stanley Kubrick"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Abuja?",
+    "opcoes": ["Gana", "Nigéria", "Quênia", "África do Sul"],
+    "resposta_correta": "Nigéria"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do esporte que usa uma espada em competições?",
+    "opcoes": ["Esgrima", "Judô", "Kendo", "Luta Livre"],
+    "resposta_correta": "Esgrima"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que inventou o telescópio refrator?",
+    "opcoes": ["Itália", "Holanda", "França", "Alemanha"],
+    "resposta_correta": "Holanda"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do autor de 'O Processo'?",
+    "opcoes": ["Franz Kafka", "Albert Camus", "Jean-Paul Sartre", "Hermann Hesse"],
+    "resposta_correta": "Franz Kafka"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o menor país do mundo em área territorial?",
+    "opcoes": ["Mônaco", "Vaticano", "Nauru", "San Marino"],
+    "resposta_correta": "Vaticano"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do jogo que popularizou o gênero 'battle royale' em 2017?",
+    "opcoes": ["Fortnite", "PUBG", "Apex Legends", "Call of Duty: Warzone"],
+    "resposta_correta": "PUBG"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Minsk?",
+    "opcoes": ["Rússia", "Bielorrússia", "Ucrânia", "Lituânia"],
+    "resposta_correta": "Bielorrússia"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do cientista que descobriu os anéis de Saturno?",
+    "opcoes": ["Galileu Galilei", "Christiaan Huygens", "Johannes Kepler", "Copérnico"],
+    "resposta_correta": "Christiaan Huygens"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que sediou os Jogos Olímpicos de Inverno de 2014?",
+    "opcoes": ["Canadá", "Rússia", "Noruega", "Japão"],
+    "resposta_correta": "Rússia"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do maior deserto em área total, incluindo desertos polares?",
+    "opcoes": ["Saara", "Antártica", "Gobi", "Kalahari"],
+    "resposta_correta": "Antártica"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do cantor que compôs 'Bohemian Rhapsody'?",
+    "opcoes": ["Freddie Mercury", "Elton John", "David Bowie", "Paul McCartney"],
+    "resposta_correta": "Freddie Mercury"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Astana (atual Nur-Sultan)?",
+    "opcoes": ["Cazaquistão", "Uzbequistão", "Quirguistão", "Turcomenistão"],
+    "resposta_correta": "Cazaquistão"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do instrumento usado para medir a umidade do ar?",
+    "opcoes": ["Barômetro", "Higrômetro", "Termômetro", "Anemômetro"],
+    "resposta_correta": "Higrômetro"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país com o maior número de falantes de árabe?",
+    "opcoes": ["Arábia Saudita", "Egito", "Marrocos", "Argélia"],
+    "resposta_correta": "Egito"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do autor de 'Guerra e Paz'?",
+    "opcoes": ["Leo Tolstoy", "Fyodor Dostoevsky", "Anton Chekhov", "Ivan Turgenev"],
+    "resposta_correta": "Leo Tolstoy"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o esporte que usa um cavalo e um taco longo?",
+    "opcoes": ["Polo", "Hipismo", "Rodeio", "Corrida"],
+    "resposta_correta": "Polo"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Belmopan?",
+    "opcoes": ["Guatemala", "Belize", "Honduras", "El Salvador"],
+    "resposta_correta": "Belize"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do compositor da ópera 'Carmen'?",
+    "opcoes": ["Giuseppe Verdi", "Georges Bizet", "Richard Wagner", "Puccini"],
+    "resposta_correta": "Georges Bizet"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o elemento químico descoberto em 1898 por Marie e Pierre Curie?",
+    "opcoes": ["Urânio", "Rádio", "Plutônio", "Tório"],
+    "resposta_correta": "Rádio"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do diretor de 'Laranja Mecânica'?",
+    "opcoes": ["Stanley Kubrick", "Alfred Hitchcock", "David Lynch", "Orson Welles"],
+    "resposta_correta": "Stanley Kubrick"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Quito?",
+    "opcoes": ["Peru", "Equador", "Bolívia", "Colômbia"],
+    "resposta_correta": "Equador"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do esporte que combina natação, ciclismo e corrida?",
+    "opcoes": ["Triatlo", "Biatlo", "Pentatlo", "Duatlo"],
+    "resposta_correta": "Triatlo"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que inventou o primeiro submarino funcional?",
+    "opcoes": ["Estados Unidos", "Alemanha", "França", "Reino Unido"],
+    "resposta_correta": "Estados Unidos"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do autor de 'O Velho e o Mar'?",
+    "opcoes": ["Ernest Hemingway", "John Steinbeck", "F. Scott Fitzgerald", "William Faulkner"],
+    "resposta_correta": "Ernest Hemingway"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o maior satélite natural do Sistema Solar?",
+    "opcoes": ["Lua", "Titã", "Ganimedes", "Calisto"],
+    "resposta_correta": "Ganimedes"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do jogo que introduziu o personagem Solid Snake?",
+    "opcoes": ["Metal Gear", "Resident Evil", "Silent Hill", "Splinter Cell"],
+    "resposta_correta": "Metal Gear"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Sarajevo?",
+    "opcoes": ["Sérvia", "Bósnia e Herzegovina", "Croácia", "Montenegro"],
+    "resposta_correta": "Bósnia e Herzegovina"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do matemático que desenvolveu o cálculo infinitesimal junto com Newton?",
+    "opcoes": ["Gottfried Leibniz", "Leonhard Euler", "Carl Gauss", "Bernoulli"],
+    "resposta_correta": "Gottfried Leibniz"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o rio mais longo da Europa?",
+    "opcoes": ["Danúbio", "Volga", "Reno", "Sena"],
+    "resposta_correta": "Volga"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do diretor que venceu o Oscar por 'Parasita' em 2019?",
+    "opcoes": ["Bong Joon-ho", "Park Chan-wook", "Kim Ki-duk", "Lee Chang-dong"],
+    "resposta_correta": "Bong Joon-ho"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Phnom Penh?",
+    "opcoes": ["Vietnã", "Camboja", "Laos", "Tailândia"],
+    "resposta_correta": "Camboja"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do esporte que usa uma rede alta e saltos para atacar?",
+    "opcoes": ["Vôlei", "Basquete", "Handebol", "Polo Aquático"],
+    "resposta_correta": "Vôlei"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que inventou o primeiro relógio mecânico no século XIV?",
+    "opcoes": ["Itália", "Alemanha", "França", "Inglaterra"],
+    "resposta_correta": "Itália"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do autor de 'Os Miseráveis'?",
+    "opcoes": ["Victor Hugo", "Alexandre Dumas", "Gustave Flaubert", "Émile Zola"],
+    "resposta_correta": "Victor Hugo"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o planeta com a maior inclinação axial no Sistema Solar?",
+    "opcoes": ["Urano", "Saturno", "Júpiter", "Netuno"],
+    "resposta_correta": "Urano"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do jogo lançado em 1996 que introduziu o gênero 'survival horror'?",
+    "opcoes": ["Resident Evil", "Silent Hill", "Alone in the Dark", "Dead Space"],
+    "resposta_correta": "Resident Evil"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Tbilisi?",
+    "opcoes": ["Armênia", "Geórgia", "Azerbaijão", "Turquia"],
+    "resposta_correta": "Geórgia"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do cientista que propôs a teoria heliocêntrica moderna?",
+    "opcoes": ["Copérnico", "Galileu Galilei", "Johannes Kepler", "Tycho Brahe"],
+    "resposta_correta": "Copérnico"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que sediou os Jogos Olímpicos de Inverno de 1998?",
+    "opcoes": ["Japão", "Noruega", "Canadá", "França"],
+    "resposta_correta": "Japão"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do maior oceano em profundidade média?",
+    "opcoes": ["Atlântico", "Pacífico", "Índico", "Ártico"],
+    "resposta_correta": "Pacífico"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do cantor que liderou a banda Nirvana?",
+    "opcoes": ["Kurt Cobain", "Dave Grohl", "Krist Novoselic", "Eddie Vedder"],
+    "resposta_correta": "Kurt Cobain"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Hanoi?",
+    "opcoes": ["Tailândia", "Vietnã", "Camboja", "Laos"],
+    "resposta_correta": "Vietnã"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do instrumento usado para medir a intensidade de terremotos?",
+    "opcoes": ["Sismógrafo", "Barômetro", "Anemômetro", "Higrômetro"],
+    "resposta_correta": "Sismógrafo"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país com o maior número de falantes de mandarim?",
+    "opcoes": ["Taiwan", "China", "Singapura", "Malásia"],
+    "resposta_correta": "China"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do autor de 'O Estrangeiro'?",
+    "opcoes": ["Albert Camus", "Jean-Paul Sartre", "Franz Kafka", "Simone de Beauvoir"],
+    "resposta_correta": "Albert Camus"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o esporte que usa um arco e flechas em competições olímpicas?",
+    "opcoes": ["Tiro ao Alvo", "Arco e Flecha", "Esgrima", "Atletismo"],
+    "resposta_correta": "Arco e Flecha"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Manama?",
+    "opcoes": ["Qatar", "Bahrein", "Emirados Árabes", "Arábia Saudita"],
+    "resposta_correta": "Bahrein"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do compositor da ópera 'Aida'?",
+    "opcoes": ["Giuseppe Verdi", "Richard Wagner", "Puccini", "Rossini"],
+    "resposta_correta": "Giuseppe Verdi"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o elemento químico mais raro na crosta terrestre?",
+    "opcoes": ["Ósmio", "Astatine", "Rênio", "Frâncio"],
+    "resposta_correta": "Astatine"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do diretor de 'Cidadão Kane'?",
+    "opcoes": ["Orson Welles", "Alfred Hitchcock", "Stanley Kubrick", "Frank Capra"],
+    "resposta_correta": "Orson Welles"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Gaborone?",
+    "opcoes": ["Zimbábue", "Botsuana", "Zâmbia", "Namíbia"],
+    "resposta_correta": "Botsuana"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do esporte que usa uma prancha e ondas do mar?",
+    "opcoes": ["Surfe", "Windsurf", "Kitesurf", "Stand-up Paddle"],
+    "resposta_correta": "Surfe"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que inventou o primeiro motor a vapor funcional?",
+    "opcoes": ["Reino Unido", "França", "Alemanha", "Estados Unidos"],
+    "resposta_correta": "Reino Unido"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do autor de 'Ulisses'?",
+    "opcoes": ["James Joyce", "William Faulkner", "T.S. Eliot", "Ezra Pound"],
+    "resposta_correta": "James Joyce"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o planeta com o maior número de luas confirmadas?",
+    "opcoes": ["Júpiter", "Saturno", "Urano", "Netuno"],
+    "resposta_correta": "Saturno"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do jogo que introduziu o personagem Kratos?",
+    "opcoes": ["God of War", "Devil May Cry", "Dark Souls", "Bayonetta"],
+    "resposta_correta": "God of War"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Riga?",
+    "opcoes": ["Lituânia", "Letônia", "Estônia", "Finlândia"],
+    "resposta_correta": "Letônia"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do cientista que descobriu a penicilina?",
+    "opcoes": ["Alexander Fleming", "Louis Pasteur", "Robert Koch", "Joseph Lister"],
+    "resposta_correta": "Alexander Fleming"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que sediou os Jogos Olímpicos de Verão de 1988?",
+    "opcoes": ["Japão", "Coreia do Sul", "China", "Austrália"],
+    "resposta_correta": "Coreia do Sul"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do maior deserto de altitude do mundo?",
+    "opcoes": ["Atacama", "Tibete", "Gobi", "Saara"],
+    "resposta_correta": "Tibete"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do cantor que liderou a banda The Doors?",
+    "opcoes": ["Jim Morrison", "Ray Manzarek", "Robby Krieger", "John Densmore"],
+    "resposta_correta": "Jim Morrison"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Vientiane?",
+    "opcoes": ["Camboja", "Laos", "Vietnã", "Tailândia"],
+    "resposta_correta": "Laos"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do instrumento usado para medir a altitude?",
+    "opcoes": ["Altímetro", "Barômetro", "Higrômetro", "Teodolito"],
+    "resposta_correta": "Altímetro"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país com o maior número de falantes de russo?",
+    "opcoes": ["Ucrânia", "Rússia", "Bielorrússia", "Cazaquistão"],
+    "resposta_correta": "Rússia"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do autor de 'Admirável Mundo Novo'?",
+    "opcoes": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "H.G. Wells"],
+    "resposta_correta": "Aldous Huxley"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o esporte que usa um ringue e cordas elásticas?",
+    "opcoes": ["Boxe", "Luta Livre", "MMA", "Sumô"],
+    "resposta_correta": "Luta Livre"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Paramaribo?",
+    "opcoes": ["Guiana", "Suriname", "Trinidad e Tobago", "Barbados"],
+    "resposta_correta": "Suriname"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do compositor da ópera 'O Anel do Nibelungo'?",
+    "opcoes": ["Richard Wagner", "Giuseppe Verdi", "Puccini", "Rossini"],
+    "resposta_correta": "Richard Wagner"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o elemento químico mais abundante no Sol?",
+    "opcoes": ["Hidrogênio", "Hélio", "Oxigênio", "Carbono"],
+    "resposta_correta": "Hidrogênio"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do diretor de 'Apocalypse Now'?",
+    "opcoes": ["Francis Ford Coppola", "Martin Scorsese", "Oliver Stone", "Coppola"],
+    "resposta_correta": "Francis Ford Coppola"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que tem a capital chamada Suva?",
+    "opcoes": ["Fiji", "Tonga", "Samoa", "Vanuatu"],
+    "resposta_correta": "Fiji"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do esporte que usa uma bola de 16 libras em uma pista longa?",
+    "opcoes": ["Boliche", "Curling", "Bocha", "Petanca"],
+    "resposta_correta": "Boliche"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o país que inventou o primeiro avião motorizado?",
+    "opcoes": ["Estados Unidos", "França", "Alemanha", "Reino Unido"],
+    "resposta_correta": "Estados Unidos"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do autor de 'Moby Dick'?",
+    "opcoes": ["Herman Melville", "Nathaniel Hawthorne", "Mark Twain", "Edgar Allan Poe"],
+    "resposta_correta": "Herman Melville"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o maior planeta anão do Sistema Solar?",
+    "opcoes": ["Plutão", "Éris", "Ceres", "Makemake"],
+    "resposta_correta": "Éris"
+  },
+  {
+    "nivel": "difícil",
+    "pergunta": "Qual é o nome do jogo que introduziu o personagem Geralt de Rivia?",
+    "opcoes": ["The Witcher", "Dragon Age", "Skyrim", "Dark Souls"],
+    "resposta_correta": "The Witcher"
+  }
 ]

@@ -25,7 +25,6 @@ def selecionar_perguntas():
         selecionadas_medias = random.sample(medias, min(10, len(medias)))
         selecionadas_dificeis = random.sample(dificeis, min(10, len(dificeis)))
 
-        # Junta mantendo a ordem: fáceis, médias, difíceis
         perguntas_ordenadas = selecionadas_faceis + selecionadas_medias + selecionadas_dificeis
         print(f"📚 {len(perguntas_ordenadas)} perguntas selecionadas na ordem correta.")
         return perguntas_ordenadas
@@ -33,21 +32,24 @@ def selecionar_perguntas():
         print(f"❌ Erro ao selecionar perguntas: {e}")
         return []
 
-
+# 🔊 Página principal (main.html com música e iframe)
 @app.route("/")
+def main():
+    return render_template("main.html")
+
+# 🏠 Conteúdo da tela inicial (sem música)
+@app.route("/index")
 def index():
     return render_template("index.html")
 
 @app.route("/quiz", methods=["GET", "POST"])
 def quiz():
     if request.method == "GET":
-        # Início do quiz: limpa sessões antigas
         session.pop("acertos", None)
         session.pop("total", None)
 
         perguntas = selecionar_perguntas()
 
-        # Garante que cada pergunta tenha os campos esperados
         for p in perguntas:
             p.setdefault("pergunta", "Pergunta sem texto")
             p.setdefault("opcoes", ["Sem opções"])
@@ -56,7 +58,6 @@ def quiz():
         session["perguntas"] = perguntas
         return render_template("quiz.html", perguntas=perguntas)
 
-    # POST: Recebe respostas
     perguntas = session.get("perguntas", [])
     if not perguntas:
         print("⚠️ Nenhuma pergunta encontrada na sessão.")
@@ -126,6 +127,13 @@ def hall_da_fama():
     dados_ordenados = sorted(dados, key=lambda x: x["acertos"], reverse=True)
     return render_template("halldafama.html", registros=dados_ordenados)
 
+@app.route("/musicplayer")
+def musicplayer():
+    return render_template("musicplayer.html")
+
+@app.route("/player")
+def player():
+    return render_template("player.html")
+
 if __name__ == "__main__":
-    #app.run(debug=True) #usa no Replit
-    app.run(host="0.0.0.0", port=10000) #usa no Render
+    app.run(host="0.0.0.0", port=10000)
